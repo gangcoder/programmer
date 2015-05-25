@@ -1,0 +1,2839 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-pdf',
+1 verbose cli   '-g' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'gitbook-pdf', null ]
+5 verbose cache add spec gitbook-pdf
+6 silly cache add parsed spec { raw: 'gitbook-pdf',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'gitbook-pdf',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed gitbook-pdf@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'gitbook-pdf', range: '*', hasData: false }
+11 silly mapToRegistry name gitbook-pdf
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/gitbook-pdf
+15 verbose addNameRange registry:https://registry.npmjs.org/gitbook-pdf not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/gitbook-pdf
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 00:00:02
+19 verbose request id 9f1c7a98c65cc660
+20 verbose etag "1TJ5ZKSZLOC0GCDPGB3TWAZ3N"
+21 http request GET https://registry.npmjs.org/gitbook-pdf
+22 http 304 https://registry.npmjs.org/gitbook-pdf
+23 silly get cb [ 304,
+23 silly get   { date: 'Thu, 07 May 2015 16:00:04 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Thu, 07 May 2015 16:00:04 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"1TJ5ZKSZLOC0GCDPGB3TWAZ3N"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-nrt6123-NRT',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1431014404.152485,VS0,VE695',
+23 silly get     vary: 'Accept' } ]
+24 verbose etag https://registry.npmjs.org/gitbook-pdf from cache
+25 verbose get saving gitbook-pdf to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\gitbook-pdf\.cache.json
+26 silly addNameRange number 2 { name: 'gitbook-pdf', range: '*', hasData: true }
+27 silly addNameRange versions [ 'gitbook-pdf', [ '0.0.1', '0.0.2' ] ]
+28 verbose addNamed gitbook-pdf@0.0.2
+29 silly addNamed semver.valid 0.0.2
+30 silly addNamed semver.validRange 0.0.2
+31 silly cache afterAdd gitbook-pdf@0.0.2
+32 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package\package.json not in flight; writing
+33 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package\package.json written
+34 silly install resolved [ { name: 'gitbook-pdf',
+34 silly install resolved     version: '0.0.2',
+34 silly install resolved     description: 'PDF Generator for GitBook',
+34 silly install resolved     main: 'lib/index.js',
+34 silly install resolved     dependencies:
+34 silly install resolved      { q: '1.0.1',
+34 silly install resolved        lodash: '2.4.1',
+34 silly install resolved        commander: '2.2.0',
+34 silly install resolved        phantomjs: '1.9.7-5' },
+34 silly install resolved     bin: { 'gitbook-pdf': './bin/gitbook-pdf.js' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'https://github.com/GitbookIO/gitbook-pdf.git' },
+34 silly install resolved     keywords: [ 'git', 'book', 'gitbook', 'pdf' ],
+34 silly install resolved     author: { name: 'Samy Pessé', email: 'samypesse@gmail.com' },
+34 silly install resolved     license: 'Apache 2',
+34 silly install resolved     bugs: { url: 'https://github.com/GitbookIO/gitbook-pdf/issues' },
+34 silly install resolved     homepage: 'https://github.com/GitbookIO/gitbook-pdf',
+34 silly install resolved     _id: 'gitbook-pdf@0.0.2',
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'f63db2806a0c498a116d30e78323881e53d1e75c',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/gitbook-pdf/-/gitbook-pdf-0.0.2.tgz' },
+34 silly install resolved     _from: 'gitbook-pdf@*',
+34 silly install resolved     _npmVersion: '1.4.3',
+34 silly install resolved     _npmUser: { name: 'samypesse', email: 'samypesse@gmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: 'f63db2806a0c498a116d30e78323881e53d1e75c',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook-pdf/-/gitbook-pdf-0.0.2.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install gitbook-pdf@0.0.2 into C:\Users\xugang\AppData\Roaming\npm
+36 info installOne gitbook-pdf@0.0.2
+37 verbose installOne of gitbook-pdf to C:\Users\xugang\AppData\Roaming\npm not in flight; installing
+38 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\gitbook-pdf-bc520aa5918bf8b3.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+39 silly install write writing gitbook-pdf 0.0.2 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+40 silly cache addNamed cb gitbook-pdf@0.0.2
+41 verbose unbuild node_modules\gitbook-pdf
+42 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf is being purged from base C:\Users\xugang\AppData\Roaming\npm
+43 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+44 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz
+45 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+46 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf is being purged
+47 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+48 silly gunzTarPerm modes [ '777', '666' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+55 silly gunzTarPerm extractEntry LICENSE
+56 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+57 silly gunzTarPerm extractEntry bin/gitbook-pdf.js
+58 silly gunzTarPerm modified mode [ 'bin/gitbook-pdf.js', 493, 511 ]
+59 silly gunzTarPerm extractEntry lib/index.js
+60 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+61 silly gunzTarPerm extractEntry lib/rasterize.js
+62 silly gunzTarPerm modified mode [ 'lib/rasterize.js', 420, 438 ]
+63 info preinstall gitbook-pdf@0.0.2
+64 silly prepareForInstallMany adding q@1.0.1 from gitbook-pdf dependencies
+65 silly prepareForInstallMany adding lodash@2.4.1 from gitbook-pdf dependencies
+66 silly prepareForInstallMany adding commander@2.2.0 from gitbook-pdf dependencies
+67 silly prepareForInstallMany adding phantomjs@1.9.7-5 from gitbook-pdf dependencies
+68 silly cache add args [ 'q@1.0.1', null ]
+69 verbose cache add spec q@1.0.1
+70 silly cache add args [ 'lodash@2.4.1', null ]
+71 verbose cache add spec lodash@2.4.1
+72 silly cache add parsed spec { raw: 'q@1.0.1',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'q',
+72 silly cache add   rawSpec: '1.0.1',
+72 silly cache add   spec: '1.0.1',
+72 silly cache add   type: 'version' }
+73 verbose addNamed q@1.0.1
+74 silly addNamed semver.valid 1.0.1
+75 silly addNamed semver.validRange 1.0.1
+76 silly mapToRegistry name q
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/q
+80 verbose addNameVersion registry:https://registry.npmjs.org/q not in flight; fetching
+81 silly cache add parsed spec { raw: 'lodash@2.4.1',
+81 silly cache add   scope: null,
+81 silly cache add   name: 'lodash',
+81 silly cache add   rawSpec: '2.4.1',
+81 silly cache add   spec: '2.4.1',
+81 silly cache add   type: 'version' }
+82 verbose addNamed lodash@2.4.1
+83 silly addNamed semver.valid 2.4.1
+84 silly addNamed semver.validRange 2.4.1
+85 silly mapToRegistry name lodash
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/lodash
+89 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+90 silly cache add args [ 'commander@2.2.0', null ]
+91 verbose cache add spec commander@2.2.0
+92 silly cache add parsed spec { raw: 'commander@2.2.0',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'commander',
+92 silly cache add   rawSpec: '2.2.0',
+92 silly cache add   spec: '2.2.0',
+92 silly cache add   type: 'version' }
+93 verbose addNamed commander@2.2.0
+94 silly addNamed semver.valid 2.2.0
+95 silly addNamed semver.validRange 2.2.0
+96 silly mapToRegistry name commander
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/commander
+100 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+101 silly cache add args [ 'phantomjs@1.9.7-5', null ]
+102 verbose cache add spec phantomjs@1.9.7-5
+103 silly cache add parsed spec { raw: 'phantomjs@1.9.7-5',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'phantomjs',
+103 silly cache add   rawSpec: '1.9.7-5',
+103 silly cache add   spec: '1.9.7-5',
+103 silly cache add   type: 'version' }
+104 verbose addNamed phantomjs@1.9.7-5
+105 silly addNamed semver.valid 1.9.7-5
+106 silly addNamed semver.validRange 1.9.7-5
+107 silly mapToRegistry name phantomjs
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+111 verbose addNameVersion registry:https://registry.npmjs.org/phantomjs not in flight; fetching
+112 verbose request uri https://registry.npmjs.org/phantomjs
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 00:00:04
+115 verbose etag "52Q459RQPC4EDHAP9WC62TBU4"
+116 http request GET https://registry.npmjs.org/phantomjs
+117 verbose request uri https://registry.npmjs.org/commander
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 00:00:04
+120 verbose etag "1HDZHA1OYITEGBP1GJ5C0IN8S"
+121 http request GET https://registry.npmjs.org/commander
+122 verbose request uri https://registry.npmjs.org/q
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 00:00:04
+125 verbose etag "2SYXAARDTV9CQSUDE73VN4Q5W"
+126 http request GET https://registry.npmjs.org/q
+127 verbose request uri https://registry.npmjs.org/lodash
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 00:00:04
+130 verbose etag "1IJ05RVZDSB0P2YUBSF1NB7UO"
+131 http request GET https://registry.npmjs.org/lodash
+132 http 304 https://registry.npmjs.org/commander
+133 silly get cb [ 304,
+133 silly get   { date: 'Thu, 07 May 2015 16:00:05 GMT',
+133 silly get     via: '1.1 varnish',
+133 silly get     'last-modified': 'Thu, 07 May 2015 16:00:05 GMT',
+133 silly get     'cache-control': 'max-age=60',
+133 silly get     etag: '"1HDZHA1OYITEGBP1GJ5C0IN8S"',
+133 silly get     age: '43',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-served-by': 'cache-nrt6124-NRT',
+133 silly get     'x-cache': 'HIT',
+133 silly get     'x-cache-hits': '1',
+133 silly get     'x-timer': 'S1431014405.751390,VS0,VE0',
+133 silly get     vary: 'Accept' } ]
+134 verbose etag https://registry.npmjs.org/commander from cache
+135 verbose get saving commander to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\commander\.cache.json
+136 http 304 https://registry.npmjs.org/q
+137 silly get cb [ 304,
+137 silly get   { date: 'Thu, 07 May 2015 16:00:05 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     'last-modified': 'Thu, 07 May 2015 16:00:05 GMT',
+137 silly get     'cache-control': 'max-age=60',
+137 silly get     etag: '"2SYXAARDTV9CQSUDE73VN4Q5W"',
+137 silly get     age: '53',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-nrt6135-NRT',
+137 silly get     'x-cache': 'HIT',
+137 silly get     'x-cache-hits': '1',
+137 silly get     'x-timer': 'S1431014405.757868,VS0,VE1',
+137 silly get     vary: 'Accept' } ]
+138 verbose etag https://registry.npmjs.org/q from cache
+139 verbose get saving q to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\q\.cache.json
+140 silly cache afterAdd commander@2.2.0
+141 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\commander\2.2.0\package\package.json not in flight; writing
+142 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\commander\2.2.0\package\package.json written
+143 silly cache afterAdd q@1.0.1
+144 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\q\1.0.1\package\package.json not in flight; writing
+145 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\q\1.0.1\package\package.json written
+146 http 304 https://registry.npmjs.org/phantomjs
+147 silly get cb [ 304,
+147 silly get   { date: 'Thu, 07 May 2015 16:00:05 GMT',
+147 silly get     via: '1.1 varnish',
+147 silly get     'cache-control': 'max-age=60',
+147 silly get     etag: '"52Q459RQPC4EDHAP9WC62TBU4"',
+147 silly get     age: '0',
+147 silly get     connection: 'keep-alive',
+147 silly get     'x-served-by': 'cache-nrt6129-NRT',
+147 silly get     'x-cache': 'HIT',
+147 silly get     'x-cache-hits': '1',
+147 silly get     'x-timer': 'S1431014405.740608,VS0,VE420',
+147 silly get     vary: 'Accept' } ]
+148 verbose etag https://registry.npmjs.org/phantomjs from cache
+149 verbose get saving phantomjs to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\phantomjs\.cache.json
+150 silly cache afterAdd phantomjs@1.9.7-5
+151 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package\package.json not in flight; writing
+152 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package\package.json written
+153 http 200 https://registry.npmjs.org/lodash
+154 silly get cb [ 200,
+154 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly get     etag: '"34SW3VT8NC0KKU6ME3ER7G5FR"',
+154 silly get     'content-type': 'application/json',
+154 silly get     'cache-control': 'max-age=60',
+154 silly get     'content-length': '97048',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Thu, 07 May 2015 16:00:06 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '45',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-nrt6126-NRT',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1431014406.343194,VS0,VE1',
+154 silly get     vary: 'Accept' } ]
+155 verbose get saving lodash to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+156 silly mapToRegistry name lodash
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry uri https://registry.npmjs.org/lodash
+160 verbose addRemoteTarball https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz not in flight; adding
+161 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+161 verbose addRemoteTarball   '5b7723034dda4d262e5a46fb2c58d7cc22f71420' ]
+162 info retry fetch attempt 1 at 00:00:06
+163 info attempt registry request try #1 at 00:00:06
+164 http fetch GET https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+165 http fetch 200 https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+166 silly fetchAndShaCheck shasum 5b7723034dda4d262e5a46fb2c58d7cc22f71420
+167 verbose addTmpTarball C:\Users\xugang\AppData\Local\Temp\npm-5208-69120999\registry.npmjs.org\lodash\-\lodash-2.4.1.tgz not in flight; adding
+168 verbose addTmpTarball already have metadata; skipping unpack for lodash@2.4.1
+169 silly cache afterAdd lodash@2.4.1
+170 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\lodash\2.4.1\package\package.json not in flight; writing
+171 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\lodash\2.4.1\package\package.json written
+172 silly install resolved [ { name: 'commander',
+172 silly install resolved     version: '2.2.0',
+172 silly install resolved     description: 'the complete solution for node.js command-line programs',
+172 silly install resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+172 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+172 silly install resolved     repository:
+172 silly install resolved      { type: 'git',
+172 silly install resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+172 silly install resolved     devDependencies: { should: '>= 0.0.1' },
+172 silly install resolved     scripts: { test: 'make test' },
+172 silly install resolved     main: 'index',
+172 silly install resolved     engines: { node: '>= 0.6.x' },
+172 silly install resolved     files: [ 'index.js' ],
+172 silly install resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+172 silly install resolved     homepage: 'https://github.com/visionmedia/commander.js',
+172 silly install resolved     _id: 'commander@2.2.0',
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: '175ad4b9317f3ff615f201c1e57224f55a3e91df',
+172 silly install resolved        tarball: 'http://registry.npmjs.org/commander/-/commander-2.2.0.tgz' },
+172 silly install resolved     _from: 'commander@2.2.0',
+172 silly install resolved     _npmVersion: '1.3.15',
+172 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+172 silly install resolved     maintainers: [ [Object] ],
+172 silly install resolved     directories: {},
+172 silly install resolved     _shasum: '175ad4b9317f3ff615f201c1e57224f55a3e91df',
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/commander/-/commander-2.2.0.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' },
+172 silly install resolved   { name: 'q',
+172 silly install resolved     version: '1.0.1',
+172 silly install resolved     description: 'A library for promises (CommonJS/Promises/A,B,D)',
+172 silly install resolved     homepage: 'https://github.com/kriskowal/q',
+172 silly install resolved     author:
+172 silly install resolved      { name: 'Kris Kowal',
+172 silly install resolved        email: 'kris@cixar.com',
+172 silly install resolved        url: 'https://github.com/kriskowal' },
+172 silly install resolved     keywords:
+172 silly install resolved      [ 'q',
+172 silly install resolved        'promise',
+172 silly install resolved        'promises',
+172 silly install resolved        'promises-a',
+172 silly install resolved        'promises-aplus',
+172 silly install resolved        'deferred',
+172 silly install resolved        'future',
+172 silly install resolved        'async',
+172 silly install resolved        'flow control',
+172 silly install resolved        'fluent',
+172 silly install resolved        'browser',
+172 silly install resolved        'node' ],
+172 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+172 silly install resolved     bugs: { url: 'http://github.com/kriskowal/q/issues' },
+172 silly install resolved     license:
+172 silly install resolved      { type: 'MIT',
+172 silly install resolved        url: 'http://github.com/kriskowal/q/raw/master/LICENSE' },
+172 silly install resolved     main: 'q.js',
+172 silly install resolved     repository: { type: 'git', url: 'git://github.com/kriskowal/q.git' },
+172 silly install resolved     engines: { node: '>=0.6.0', teleport: '>=0.2.0' },
+172 silly install resolved     dependencies: {},
+172 silly install resolved     devDependencies:
+172 silly install resolved      { jshint: '~2.1.9',
+172 silly install resolved        cover: '*',
+172 silly install resolved        'jasmine-node': '1.11.0',
+172 silly install resolved        opener: '*',
+172 silly install resolved        'promises-aplus-tests': '1.x',
+172 silly install resolved        grunt: '~0.4.1',
+172 silly install resolved        'grunt-cli': '~0.1.9',
+172 silly install resolved        'grunt-contrib-uglify': '~0.2.2',
+172 silly install resolved        matcha: '~0.2.0' },
+172 silly install resolved     scripts:
+172 silly install resolved      { test: 'jasmine-node spec && promises-aplus-tests spec/aplus-adapter',
+172 silly install resolved        'test-browser': 'opener spec/q-spec.html',
+172 silly install resolved        benchmark: 'matcha',
+172 silly install resolved        lint: 'jshint q.js',
+172 silly install resolved        cover: 'cover run node_modules/jasmine-node/bin/jasmine-node spec && cover report html && opener cover_html/index.html',
+172 silly install resolved        minify: 'grunt',
+172 silly install resolved        prepublish: 'grunt' },
+172 silly install resolved     overlay: { teleport: [Object] },
+172 silly install resolved     directories: { test: './spec' },
+172 silly install resolved     _id: 'q@1.0.1',
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: '11872aeedee89268110b10a718448ffb10112a14',
+172 silly install resolved        tarball: 'http://registry.npmjs.org/q/-/q-1.0.1.tgz' },
+172 silly install resolved     _from: 'q@1.0.1',
+172 silly install resolved     _npmVersion: '1.4.4',
+172 silly install resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+172 silly install resolved     maintainers: [ [Object], [Object] ],
+172 silly install resolved     _shasum: '11872aeedee89268110b10a718448ffb10112a14',
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' },
+172 silly install resolved   { name: 'phantomjs',
+172 silly install resolved     version: '1.9.7-5',
+172 silly install resolved     keywords: [ 'phantomjs', 'headless', 'webkit' ],
+172 silly install resolved     description: 'Headless WebKit with JS API',
+172 silly install resolved     homepage: 'https://github.com/Obvious/phantomjs',
+172 silly install resolved     repository: { type: 'git', url: 'git://github.com/Obvious/phantomjs.git' },
+172 silly install resolved     licenses: [ [Object] ],
+172 silly install resolved     author:
+172 silly install resolved      { name: 'Dan Pupius',
+172 silly install resolved        email: 'dan@obvious.com',
+172 silly install resolved        url: 'http://pupius.co.uk' },
+172 silly install resolved     maintainers: [ [Object] ],
+172 silly install resolved     main: 'lib/phantomjs',
+172 silly install resolved     bin: { phantomjs: './bin/phantomjs' },
+172 silly install resolved     scripts:
+172 silly install resolved      { install: 'node install.js',
+172 silly install resolved        test: 'nodeunit --reporter=minimal test/tests.js' },
+172 silly install resolved     dependencies:
+172 silly install resolved      { 'adm-zip': '0.2.1',
+172 silly install resolved        kew: '~0.1.7',
+172 silly install resolved        ncp: '0.4.2',
+172 silly install resolved        npmconf: '0.0.24',
+172 silly install resolved        mkdirp: '0.3.5',
+172 silly install resolved        rimraf: '~2.2.2',
+172 silly install resolved        which: '~1.0.5' },
+172 silly install resolved     devDependencies: { nodeunit: '~0.7.4' },
+172 silly install resolved     bugs: { url: 'https://github.com/Obvious/phantomjs/issues' },
+172 silly install resolved     _id: 'phantomjs@1.9.7-5',
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: '7ac13fdc618c861dd34f7e5636bfa5bae30d3820',
+172 silly install resolved        tarball: 'http://registry.npmjs.org/phantomjs/-/phantomjs-1.9.7-5.tgz' },
+172 silly install resolved     _from: 'phantomjs@1.9.7-5',
+172 silly install resolved     _npmVersion: '1.4.3',
+172 silly install resolved     _npmUser: { name: 'dpup', email: 'dan@pupi.us' },
+172 silly install resolved     directories: {},
+172 silly install resolved     _shasum: '7ac13fdc618c861dd34f7e5636bfa5bae30d3820',
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.7-5.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' },
+172 silly install resolved   { name: 'lodash',
+172 silly install resolved     version: '2.4.1',
+172 silly install resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+172 silly install resolved     homepage: 'http://lodash.com/',
+172 silly install resolved     license: 'MIT',
+172 silly install resolved     main: 'dist/lodash.js',
+172 silly install resolved     keywords:
+172 silly install resolved      [ 'amd',
+172 silly install resolved        'browser',
+172 silly install resolved        'client',
+172 silly install resolved        'customize',
+172 silly install resolved        'functional',
+172 silly install resolved        'server',
+172 silly install resolved        'util' ],
+172 silly install resolved     author:
+172 silly install resolved      { name: 'John-David Dalton',
+172 silly install resolved        email: 'john.david.dalton@gmail.com',
+172 silly install resolved        url: 'http://allyoucanleet.com/' },
+172 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+172 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+172 silly install resolved     repository: { type: 'git', url: 'https://github.com/lodash/lodash.git' },
+172 silly install resolved     engines: [ 'node', 'rhino' ],
+172 silly install resolved     files:
+172 silly install resolved      [ 'LICENSE.txt',
+172 silly install resolved        'lodash.js',
+172 silly install resolved        'dist/lodash.js',
+172 silly install resolved        'dist/lodash.min.js',
+172 silly install resolved        'dist/lodash.compat.js',
+172 silly install resolved        'dist/lodash.compat.min.js',
+172 silly install resolved        'dist/lodash.underscore.js',
+172 silly install resolved        'dist/lodash.underscore.min.js' ],
+172 silly install resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+172 silly install resolved     volo: { type: 'directory', ignore: [Object] },
+172 silly install resolved     _id: 'lodash@2.4.1',
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+172 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' },
+172 silly install resolved     _from: 'lodash@2.4.1',
+172 silly install resolved     _npmVersion: '1.3.14',
+172 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+172 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+172 silly install resolved     directories: {},
+172 silly install resolved     _shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' } ]
+173 info install commander@2.2.0 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+174 info install q@1.0.1 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+175 info install phantomjs@1.9.7-5 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+176 info install lodash@2.4.1 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+177 info installOne commander@2.2.0
+178 verbose installOne of commander to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf not in flight; installing
+179 info installOne q@1.0.1
+180 verbose installOne of q to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf not in flight; installing
+181 info installOne phantomjs@1.9.7-5
+182 verbose installOne of phantomjs to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf not in flight; installing
+183 info installOne lodash@2.4.1
+184 verbose installOne of lodash to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf not in flight; installing
+185 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\q-3fa843ffd2ed46eb.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+186 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\phantomjs-a1be2f326a4ae992.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+187 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\lodash-ab99d29d7aad4a9c.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+188 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\commander-6e6e7217a0f75fa2.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+189 silly install write writing q 1.0.1 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+190 silly cache addNamed cb q@1.0.1
+191 verbose unbuild node_modules\gitbook-pdf\node_modules\q
+192 silly install write writing phantomjs 1.9.7-5 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+193 silly cache addNamed cb phantomjs@1.9.7-5
+194 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs
+195 silly install write writing lodash 2.4.1 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+196 silly install write writing commander 2.2.0 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+197 silly cache addNamed cb commander@2.2.0
+198 verbose unbuild node_modules\gitbook-pdf\node_modules\commander
+199 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q is being purged from base C:\Users\xugang\AppData\Roaming\npm
+200 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+201 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs is being purged from base C:\Users\xugang\AppData\Roaming\npm
+202 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+203 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander is being purged from base C:\Users\xugang\AppData\Roaming\npm
+204 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+205 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\q\1.0.1\package.tgz
+206 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+207 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q is being purged
+208 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+209 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz
+210 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+211 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs is being purged
+212 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+213 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz
+214 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+215 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander is being purged
+216 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+217 silly gunzTarPerm modes [ '777', '666' ]
+218 silly gunzTarPerm modes [ '777', '666' ]
+219 silly gunzTarPerm modes [ '777', '666' ]
+220 silly cache addNamed cb lodash@2.4.1
+221 verbose unbuild node_modules\gitbook-pdf\node_modules\lodash
+222 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash is being purged from base C:\Users\xugang\AppData\Roaming\npm
+223 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+224 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+225 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+226 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash is being purged
+227 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+228 silly gunzTarPerm modes [ '777', '666' ]
+229 silly gunzTarPerm extractEntry package.json
+230 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+231 silly gunzTarPerm extractEntry README.md
+232 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+233 silly gunzTarPerm extractEntry lodash.js
+234 silly gunzTarPerm modified mode [ 'lodash.js', 420, 438 ]
+235 silly gunzTarPerm extractEntry LICENSE.txt
+236 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+239 silly gunzTarPerm extractEntry package.json
+240 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+241 silly gunzTarPerm extractEntry .npmignore
+242 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+243 silly gunzTarPerm extractEntry README.md
+244 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+245 silly gunzTarPerm extractEntry README.md
+246 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+247 silly gunzTarPerm extractEntry LICENSE
+248 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+249 silly gunzTarPerm extractEntry q.js
+250 silly gunzTarPerm modified mode [ 'q.js', 420, 438 ]
+251 silly gunzTarPerm extractEntry queue.js
+252 silly gunzTarPerm modified mode [ 'queue.js', 420, 438 ]
+253 silly gunzTarPerm extractEntry CONTRIBUTING.md
+254 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+255 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+256 silly gunzTarPerm modified mode [ 'benchmark/compare-with-callbacks.js', 420, 438 ]
+257 silly gunzTarPerm extractEntry benchmark/scenarios.js
+258 silly gunzTarPerm modified mode [ 'benchmark/scenarios.js', 420, 438 ]
+259 silly gunzTarPerm extractEntry package.json
+260 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+261 silly gunzTarPerm extractEntry install.js
+262 silly gunzTarPerm modified mode [ 'install.js', 420, 438 ]
+263 silly gunzTarPerm extractEntry .jshintrc
+264 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+265 silly gunzTarPerm extractEntry .travis.yml
+266 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+267 silly gunzTarPerm extractEntry LICENSE.txt
+268 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+269 silly gunzTarPerm extractEntry bin/phantomjs
+270 silly gunzTarPerm modified mode [ 'bin/phantomjs', 493, 511 ]
+271 silly gunzTarPerm extractEntry lib/phantomjs.js
+272 silly gunzTarPerm modified mode [ 'lib/phantomjs.js', 420, 438 ]
+273 silly gunzTarPerm extractEntry test/exit.js
+274 silly gunzTarPerm modified mode [ 'test/exit.js', 420, 438 ]
+275 silly gunzTarPerm extractEntry test/loadspeed.js
+276 silly gunzTarPerm modified mode [ 'test/loadspeed.js', 420, 438 ]
+277 silly gunzTarPerm extractEntry test/tests.js
+278 silly gunzTarPerm modified mode [ 'test/tests.js', 420, 438 ]
+279 silly gunzTarPerm extractEntry index.js
+280 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+281 silly gunzTarPerm extractEntry Readme.md
+282 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+283 silly gunzTarPerm extractEntry dist/lodash.compat.js
+284 silly gunzTarPerm modified mode [ 'dist/lodash.compat.js', 420, 438 ]
+285 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+286 silly gunzTarPerm modified mode [ 'dist/lodash.compat.min.js', 420, 438 ]
+287 info preinstall commander@2.2.0
+288 silly install resolved []
+289 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+290 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+291 verbose linkStuff [ true,
+291 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+291 verbose linkStuff   false,
+291 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+292 info linkStuff commander@2.2.0
+293 verbose linkBins commander@2.2.0
+294 verbose linkMans commander@2.2.0
+295 verbose rebuildBundles commander@2.2.0
+296 info install commander@2.2.0
+297 info postinstall commander@2.2.0
+298 silly gunzTarPerm extractEntry dist/lodash.js
+299 silly gunzTarPerm modified mode [ 'dist/lodash.js', 420, 438 ]
+300 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\commander-6e6e7217a0f75fa2.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+301 silly gunzTarPerm extractEntry dist/lodash.min.js
+302 silly gunzTarPerm modified mode [ 'dist/lodash.min.js', 420, 438 ]
+303 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+304 silly gunzTarPerm modified mode [ 'dist/lodash.underscore.js', 420, 438 ]
+305 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+306 silly gunzTarPerm modified mode [ 'dist/lodash.underscore.min.js', 420, 438 ]
+307 info preinstall phantomjs@1.9.7-5
+308 silly prepareForInstallMany adding adm-zip@0.2.1 from phantomjs dependencies
+309 silly prepareForInstallMany adding kew@~0.1.7 from phantomjs dependencies
+310 silly prepareForInstallMany adding ncp@0.4.2 from phantomjs dependencies
+311 silly prepareForInstallMany adding npmconf@0.0.24 from phantomjs dependencies
+312 silly prepareForInstallMany adding mkdirp@0.3.5 from phantomjs dependencies
+313 silly prepareForInstallMany adding rimraf@~2.2.2 from phantomjs dependencies
+314 silly prepareForInstallMany adding which@~1.0.5 from phantomjs dependencies
+315 silly cache add args [ 'adm-zip@0.2.1', null ]
+316 verbose cache add spec adm-zip@0.2.1
+317 silly cache add args [ 'kew@~0.1.7', null ]
+318 verbose cache add spec kew@~0.1.7
+319 silly cache add parsed spec { raw: 'adm-zip@0.2.1',
+319 silly cache add   scope: null,
+319 silly cache add   name: 'adm-zip',
+319 silly cache add   rawSpec: '0.2.1',
+319 silly cache add   spec: '0.2.1',
+319 silly cache add   type: 'version' }
+320 verbose addNamed adm-zip@0.2.1
+321 silly addNamed semver.valid 0.2.1
+322 silly addNamed semver.validRange 0.2.1
+323 silly mapToRegistry name adm-zip
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry https://registry.npmjs.org/
+326 silly mapToRegistry uri https://registry.npmjs.org/adm-zip
+327 verbose addNameVersion registry:https://registry.npmjs.org/adm-zip not in flight; fetching
+328 silly cache add parsed spec { raw: 'kew@~0.1.7',
+328 silly cache add   scope: null,
+328 silly cache add   name: 'kew',
+328 silly cache add   rawSpec: '~0.1.7',
+328 silly cache add   spec: '>=0.1.7 <0.2.0',
+328 silly cache add   type: 'range' }
+329 verbose addNamed kew@>=0.1.7 <0.2.0
+330 silly addNamed semver.valid null
+331 silly addNamed semver.validRange >=0.1.7 <0.2.0
+332 silly addNameRange { name: 'kew', range: '>=0.1.7 <0.2.0', hasData: false }
+333 silly mapToRegistry name kew
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/kew
+337 verbose addNameRange registry:https://registry.npmjs.org/kew not in flight; fetching
+338 silly cache add args [ 'ncp@0.4.2', null ]
+339 verbose cache add spec ncp@0.4.2
+340 silly cache add parsed spec { raw: 'ncp@0.4.2',
+340 silly cache add   scope: null,
+340 silly cache add   name: 'ncp',
+340 silly cache add   rawSpec: '0.4.2',
+340 silly cache add   spec: '0.4.2',
+340 silly cache add   type: 'version' }
+341 verbose addNamed ncp@0.4.2
+342 silly addNamed semver.valid 0.4.2
+343 silly addNamed semver.validRange 0.4.2
+344 silly mapToRegistry name ncp
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry https://registry.npmjs.org/
+347 silly mapToRegistry uri https://registry.npmjs.org/ncp
+348 verbose addNameVersion registry:https://registry.npmjs.org/ncp not in flight; fetching
+349 silly cache add args [ 'npmconf@0.0.24', null ]
+350 verbose cache add spec npmconf@0.0.24
+351 silly cache add parsed spec { raw: 'npmconf@0.0.24',
+351 silly cache add   scope: null,
+351 silly cache add   name: 'npmconf',
+351 silly cache add   rawSpec: '0.0.24',
+351 silly cache add   spec: '0.0.24',
+351 silly cache add   type: 'version' }
+352 verbose addNamed npmconf@0.0.24
+353 silly addNamed semver.valid 0.0.24
+354 silly addNamed semver.validRange 0.0.24
+355 silly mapToRegistry name npmconf
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npmjs.org/
+358 silly mapToRegistry uri https://registry.npmjs.org/npmconf
+359 verbose addNameVersion registry:https://registry.npmjs.org/npmconf not in flight; fetching
+360 silly cache add args [ 'mkdirp@0.3.5', null ]
+361 verbose cache add spec mkdirp@0.3.5
+362 silly cache add parsed spec { raw: 'mkdirp@0.3.5',
+362 silly cache add   scope: null,
+362 silly cache add   name: 'mkdirp',
+362 silly cache add   rawSpec: '0.3.5',
+362 silly cache add   spec: '0.3.5',
+362 silly cache add   type: 'version' }
+363 verbose addNamed mkdirp@0.3.5
+364 silly addNamed semver.valid 0.3.5
+365 silly addNamed semver.validRange 0.3.5
+366 silly mapToRegistry name mkdirp
+367 silly mapToRegistry using default registry
+368 silly mapToRegistry registry https://registry.npmjs.org/
+369 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+370 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+371 silly cache add args [ 'rimraf@~2.2.2', null ]
+372 verbose cache add spec rimraf@~2.2.2
+373 silly cache add parsed spec { raw: 'rimraf@~2.2.2',
+373 silly cache add   scope: null,
+373 silly cache add   name: 'rimraf',
+373 silly cache add   rawSpec: '~2.2.2',
+373 silly cache add   spec: '>=2.2.2 <2.3.0',
+373 silly cache add   type: 'range' }
+374 verbose addNamed rimraf@>=2.2.2 <2.3.0
+375 silly addNamed semver.valid null
+376 silly addNamed semver.validRange >=2.2.2 <2.3.0
+377 silly addNameRange { name: 'rimraf', range: '>=2.2.2 <2.3.0', hasData: false }
+378 silly mapToRegistry name rimraf
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+382 verbose addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+383 silly cache add args [ 'which@~1.0.5', null ]
+384 verbose cache add spec which@~1.0.5
+385 silly cache add parsed spec { raw: 'which@~1.0.5',
+385 silly cache add   scope: null,
+385 silly cache add   name: 'which',
+385 silly cache add   rawSpec: '~1.0.5',
+385 silly cache add   spec: '>=1.0.5 <1.1.0',
+385 silly cache add   type: 'range' }
+386 verbose addNamed which@>=1.0.5 <1.1.0
+387 silly addNamed semver.valid null
+388 silly addNamed semver.validRange >=1.0.5 <1.1.0
+389 silly addNameRange { name: 'which', range: '>=1.0.5 <1.1.0', hasData: false }
+390 silly mapToRegistry name which
+391 silly mapToRegistry using default registry
+392 silly mapToRegistry registry https://registry.npmjs.org/
+393 silly mapToRegistry uri https://registry.npmjs.org/which
+394 verbose addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+395 verbose request uri https://registry.npmjs.org/adm-zip
+396 verbose request no auth needed
+397 info attempt registry request try #1 at 00:00:08
+398 verbose etag "2H01DETXZL4WZRRU16W018UD0"
+399 http request GET https://registry.npmjs.org/adm-zip
+400 verbose request uri https://registry.npmjs.org/ncp
+401 verbose request no auth needed
+402 info attempt registry request try #1 at 00:00:08
+403 verbose etag "76A9PWL3ZJ9K62LJIM2E833O6"
+404 http request GET https://registry.npmjs.org/ncp
+405 verbose request uri https://registry.npmjs.org/mkdirp
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 00:00:08
+408 verbose etag "9VMIOOH8O3HB9Q2Y5L5VPW9U2"
+409 http request GET https://registry.npmjs.org/mkdirp
+410 verbose request uri https://registry.npmjs.org/kew
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 00:00:08
+413 verbose etag "20QQL1AUIOCX2BS53Z20LB26G"
+414 http request GET https://registry.npmjs.org/kew
+415 verbose request uri https://registry.npmjs.org/npmconf
+416 verbose request no auth needed
+417 info attempt registry request try #1 at 00:00:08
+418 verbose etag "BIMZ2D65K180LLQ9AUTWNT859"
+419 http request GET https://registry.npmjs.org/npmconf
+420 verbose request uri https://registry.npmjs.org/rimraf
+421 verbose request no auth needed
+422 info attempt registry request try #1 at 00:00:08
+423 verbose etag "6I4EOA5Q384WECQJQVMHGA5OL"
+424 http request GET https://registry.npmjs.org/rimraf
+425 info preinstall q@1.0.1
+426 silly install resolved []
+427 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+428 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+429 verbose linkStuff [ true,
+429 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+429 verbose linkStuff   false,
+429 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+430 info linkStuff q@1.0.1
+431 verbose request uri https://registry.npmjs.org/which
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 00:00:08
+434 verbose etag "A4HQQ4JRWKCU7373HOKK10JAV"
+435 http request GET https://registry.npmjs.org/which
+436 verbose linkBins q@1.0.1
+437 verbose linkMans q@1.0.1
+438 verbose rebuildBundles q@1.0.1
+439 info install q@1.0.1
+440 info postinstall q@1.0.1
+441 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\q-3fa843ffd2ed46eb.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+442 info preinstall lodash@2.4.1
+443 silly install resolved []
+444 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+445 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+446 verbose linkStuff [ true,
+446 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+446 verbose linkStuff   false,
+446 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+447 info linkStuff lodash@2.4.1
+448 verbose linkBins lodash@2.4.1
+449 verbose linkMans lodash@2.4.1
+450 verbose rebuildBundles lodash@2.4.1
+451 info install lodash@2.4.1
+452 info postinstall lodash@2.4.1
+453 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\lodash-ab99d29d7aad4a9c.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+454 http 304 https://registry.npmjs.org/mkdirp
+455 silly get cb [ 304,
+455 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+455 silly get     via: '1.1 varnish',
+455 silly get     'last-modified': 'Thu, 07 May 2015 15:59:42 GMT',
+455 silly get     'cache-control': 'max-age=60',
+455 silly get     etag: '"9VMIOOH8O3HB9Q2Y5L5VPW9U2"',
+455 silly get     age: '29',
+455 silly get     connection: 'keep-alive',
+455 silly get     'x-served-by': 'cache-nrt6130-NRT',
+455 silly get     'x-cache': 'HIT',
+455 silly get     'x-cache-hits': '2',
+455 silly get     'x-timer': 'S1431014410.039457,VS0,VE0',
+455 silly get     vary: 'Accept' } ]
+456 verbose etag https://registry.npmjs.org/mkdirp from cache
+457 verbose get saving mkdirp to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+458 http 304 https://registry.npmjs.org/ncp
+459 silly get cb [ 304,
+459 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+459 silly get     via: '1.1 varnish',
+459 silly get     'last-modified': 'Thu, 07 May 2015 16:00:10 GMT',
+459 silly get     'cache-control': 'max-age=60',
+459 silly get     etag: '"76A9PWL3ZJ9K62LJIM2E833O6"',
+459 silly get     age: '41',
+459 silly get     connection: 'keep-alive',
+459 silly get     'x-served-by': 'cache-nrt6128-NRT',
+459 silly get     'x-cache': 'HIT',
+459 silly get     'x-cache-hits': '1',
+459 silly get     'x-timer': 'S1431014410.041283,VS0,VE0',
+459 silly get     vary: 'Accept' } ]
+460 verbose etag https://registry.npmjs.org/ncp from cache
+461 verbose get saving ncp to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\ncp\.cache.json
+462 http 304 https://registry.npmjs.org/rimraf
+463 silly get cb [ 304,
+463 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+463 silly get     via: '1.1 varnish',
+463 silly get     'cache-control': 'max-age=60',
+463 silly get     etag: '"6I4EOA5Q384WECQJQVMHGA5OL"',
+463 silly get     age: '1',
+463 silly get     connection: 'keep-alive',
+463 silly get     'x-served-by': 'cache-nrt6129-NRT',
+463 silly get     'x-cache': 'HIT',
+463 silly get     'x-cache-hits': '2',
+463 silly get     'x-timer': 'S1431014410.064018,VS0,VE0',
+463 silly get     vary: 'Accept' } ]
+464 verbose etag https://registry.npmjs.org/rimraf from cache
+465 verbose get saving rimraf to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\rimraf\.cache.json
+466 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.2 <2.3.0', hasData: true }
+467 silly addNameRange versions [ 'rimraf',
+467 silly addNameRange   [ '1.0.0',
+467 silly addNameRange     '1.0.1',
+467 silly addNameRange     '1.0.2',
+467 silly addNameRange     '1.0.4',
+467 silly addNameRange     '1.0.5',
+467 silly addNameRange     '1.0.6',
+467 silly addNameRange     '1.0.7',
+467 silly addNameRange     '1.0.8',
+467 silly addNameRange     '1.0.9',
+467 silly addNameRange     '2.0.0',
+467 silly addNameRange     '2.0.1',
+467 silly addNameRange     '2.0.2',
+467 silly addNameRange     '2.0.3',
+467 silly addNameRange     '2.1.0',
+467 silly addNameRange     '2.1.1',
+467 silly addNameRange     '2.1.2',
+467 silly addNameRange     '2.1.3',
+467 silly addNameRange     '2.1.4',
+467 silly addNameRange     '2.2.0',
+467 silly addNameRange     '2.2.1',
+467 silly addNameRange     '2.2.2',
+467 silly addNameRange     '2.2.3',
+467 silly addNameRange     '2.2.4',
+467 silly addNameRange     '2.2.5',
+467 silly addNameRange     '2.2.6',
+467 silly addNameRange     '2.2.8',
+467 silly addNameRange     '2.3.0',
+467 silly addNameRange     '2.3.1',
+467 silly addNameRange     '2.3.2',
+467 silly addNameRange     '2.3.3' ] ]
+468 verbose addNamed rimraf@2.2.8
+469 silly addNamed semver.valid 2.2.8
+470 silly addNamed semver.validRange 2.2.8
+471 silly cache afterAdd rimraf@2.2.8
+472 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\rimraf\2.2.8\package\package.json not in flight; writing
+473 silly cache afterAdd mkdirp@0.3.5
+474 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json not in flight; writing
+475 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\rimraf\2.2.8\package\package.json written
+476 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json written
+477 http 304 https://registry.npmjs.org/npmconf
+478 silly get cb [ 304,
+478 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+478 silly get     via: '1.1 varnish',
+478 silly get     'last-modified': 'Thu, 07 May 2015 16:00:10 GMT',
+478 silly get     'cache-control': 'max-age=60',
+478 silly get     etag: '"BIMZ2D65K180LLQ9AUTWNT859"',
+478 silly get     age: '0',
+478 silly get     connection: 'keep-alive',
+478 silly get     'x-served-by': 'cache-nrt6132-NRT',
+478 silly get     'x-cache': 'HIT',
+478 silly get     'x-cache-hits': '1',
+478 silly get     'x-timer': 'S1431014410.043011,VS0,VE110',
+478 silly get     vary: 'Accept' } ]
+479 verbose etag https://registry.npmjs.org/npmconf from cache
+480 verbose get saving npmconf to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\npmconf\.cache.json
+481 silly cache afterAdd ncp@0.4.2
+482 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\ncp\0.4.2\package\package.json not in flight; writing
+483 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\ncp\0.4.2\package\package.json written
+484 http 304 https://registry.npmjs.org/which
+485 silly get cb [ 304,
+485 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+485 silly get     via: '1.1 varnish',
+485 silly get     'last-modified': 'Thu, 07 May 2015 16:00:10 GMT',
+485 silly get     'cache-control': 'max-age=60',
+485 silly get     etag: '"A4HQQ4JRWKCU7373HOKK10JAV"',
+485 silly get     age: '0',
+485 silly get     connection: 'keep-alive',
+485 silly get     'x-served-by': 'cache-nrt6125-NRT',
+485 silly get     'x-cache': 'HIT',
+485 silly get     'x-cache-hits': '1',
+485 silly get     'x-timer': 'S1431014410.057224,VS0,VE113',
+485 silly get     vary: 'Accept' } ]
+486 verbose etag https://registry.npmjs.org/which from cache
+487 verbose get saving which to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\which\.cache.json
+488 silly addNameRange number 2 { name: 'which', range: '>=1.0.5 <1.1.0', hasData: true }
+489 silly addNameRange versions [ 'which',
+489 silly addNameRange   [ '1.0.0',
+489 silly addNameRange     '1.0.1',
+489 silly addNameRange     '1.0.2',
+489 silly addNameRange     '1.0.3',
+489 silly addNameRange     '1.0.5',
+489 silly addNameRange     '1.0.6',
+489 silly addNameRange     '1.0.7',
+489 silly addNameRange     '1.0.8',
+489 silly addNameRange     '1.0.9' ] ]
+490 verbose addNamed which@1.0.9
+491 silly addNamed semver.valid 1.0.9
+492 silly addNamed semver.validRange 1.0.9
+493 silly cache afterAdd npmconf@0.0.24
+494 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\npmconf\0.0.24\package\package.json not in flight; writing
+495 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\npmconf\0.0.24\package\package.json written
+496 silly cache afterAdd which@1.0.9
+497 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\which\1.0.9\package\package.json not in flight; writing
+498 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\which\1.0.9\package\package.json written
+499 http 304 https://registry.npmjs.org/adm-zip
+500 silly get cb [ 304,
+500 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+500 silly get     via: '1.1 varnish',
+500 silly get     'cache-control': 'max-age=60',
+500 silly get     etag: '"2H01DETXZL4WZRRU16W018UD0"',
+500 silly get     age: '0',
+500 silly get     connection: 'keep-alive',
+500 silly get     'x-served-by': 'cache-nrt6129-NRT',
+500 silly get     'x-cache': 'HIT',
+500 silly get     'x-cache-hits': '1',
+500 silly get     'x-timer': 'S1431014410.040295,VS0,VE712',
+500 silly get     vary: 'Accept' } ]
+501 verbose etag https://registry.npmjs.org/adm-zip from cache
+502 verbose get saving adm-zip to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\adm-zip\.cache.json
+503 http 304 https://registry.npmjs.org/kew
+504 silly get cb [ 304,
+504 silly get   { date: 'Thu, 07 May 2015 16:00:10 GMT',
+504 silly get     via: '1.1 varnish',
+504 silly get     'last-modified': 'Thu, 07 May 2015 16:00:10 GMT',
+504 silly get     'cache-control': 'max-age=60',
+504 silly get     etag: '"20QQL1AUIOCX2BS53Z20LB26G"',
+504 silly get     age: '0',
+504 silly get     connection: 'keep-alive',
+504 silly get     'x-served-by': 'cache-nrt6122-NRT',
+504 silly get     'x-cache': 'HIT',
+504 silly get     'x-cache-hits': '1',
+504 silly get     'x-timer': 'S1431014410.047324,VS0,VE729',
+504 silly get     vary: 'Accept' } ]
+505 verbose etag https://registry.npmjs.org/kew from cache
+506 verbose get saving kew to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\kew\.cache.json
+507 silly addNameRange number 2 { name: 'kew', range: '>=0.1.7 <0.2.0', hasData: true }
+508 silly addNameRange versions [ 'kew',
+508 silly addNameRange   [ '0.0.1',
+508 silly addNameRange     '0.0.2',
+508 silly addNameRange     '0.0.3',
+508 silly addNameRange     '0.0.4',
+508 silly addNameRange     '0.1.0',
+508 silly addNameRange     '0.1.1',
+508 silly addNameRange     '0.1.2',
+508 silly addNameRange     '0.1.3',
+508 silly addNameRange     '0.1.4',
+508 silly addNameRange     '0.1.5',
+508 silly addNameRange     '0.1.6',
+508 silly addNameRange     '0.1.7',
+508 silly addNameRange     '0.2.1',
+508 silly addNameRange     '0.2.2',
+508 silly addNameRange     '0.3.0',
+508 silly addNameRange     '0.3.1',
+508 silly addNameRange     '0.3.2',
+508 silly addNameRange     '0.3.3',
+508 silly addNameRange     '0.3.4',
+508 silly addNameRange     '0.4.0',
+508 silly addNameRange     '0.5.0-alpha',
+508 silly addNameRange     '0.5.0-alpha.1',
+508 silly addNameRange     '0.5.0' ] ]
+509 verbose addNamed kew@0.1.7
+510 silly addNamed semver.valid 0.1.7
+511 silly addNamed semver.validRange 0.1.7
+512 silly cache afterAdd adm-zip@0.2.1
+513 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\adm-zip\0.2.1\package\package.json not in flight; writing
+514 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\adm-zip\0.2.1\package\package.json written
+515 silly cache afterAdd kew@0.1.7
+516 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\kew\0.1.7\package\package.json not in flight; writing
+517 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\kew\0.1.7\package\package.json written
+518 silly install resolved [ { name: 'rimraf',
+518 silly install resolved     version: '2.2.8',
+518 silly install resolved     main: 'rimraf.js',
+518 silly install resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+518 silly install resolved     author:
+518 silly install resolved      { name: 'Isaac Z. Schlueter',
+518 silly install resolved        email: 'i@izs.me',
+518 silly install resolved        url: 'http://blog.izs.me/' },
+518 silly install resolved     license:
+518 silly install resolved      { type: 'MIT',
+518 silly install resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+518 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+518 silly install resolved     scripts: { test: 'cd test && bash run.sh' },
+518 silly install resolved     bin: { rimraf: './bin.js' },
+518 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+518 silly install resolved     bugs: { url: 'https://github.com/isaacs/rimraf/issues' },
+518 silly install resolved     homepage: 'https://github.com/isaacs/rimraf',
+518 silly install resolved     _id: 'rimraf@2.2.8',
+518 silly install resolved     _shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+518 silly install resolved     _from: 'rimraf@>=2.2.2 <2.3.0',
+518 silly install resolved     _npmVersion: '1.4.10',
+518 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz' },
+518 silly install resolved     directories: {},
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+518 silly install resolved     readme: 'ERROR: No README data found!' },
+518 silly install resolved   { name: 'mkdirp',
+518 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+518 silly install resolved     version: '0.3.5',
+518 silly install resolved     author:
+518 silly install resolved      { name: 'James Halliday',
+518 silly install resolved        email: 'mail@substack.net',
+518 silly install resolved        url: 'http://substack.net' },
+518 silly install resolved     main: './index',
+518 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+518 silly install resolved     repository:
+518 silly install resolved      { type: 'git',
+518 silly install resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+518 silly install resolved     scripts: { test: 'tap test/*.js' },
+518 silly install resolved     devDependencies: { tap: '~0.4.0' },
+518 silly install resolved     license: 'MIT',
+518 silly install resolved     _id: 'mkdirp@0.3.5',
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' },
+518 silly install resolved     _from: 'mkdirp@0.3.5',
+518 silly install resolved     _npmVersion: '1.2.2',
+518 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     directories: {},
+518 silly install resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+518 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+518 silly install resolved     readme: 'ERROR: No README data found!',
+518 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp' },
+518 silly install resolved   { name: 'ncp',
+518 silly install resolved     version: '0.4.2',
+518 silly install resolved     author: { name: 'AvianFlu', email: 'charlie@charlieistheman.com' },
+518 silly install resolved     description: 'Asynchronous recursive file copy utility.',
+518 silly install resolved     bin: { ncp: './bin/ncp' },
+518 silly install resolved     devDependencies: { vows: '0.6.x', rimraf: '1.0.x', 'read-dir-files': '0.0.x' },
+518 silly install resolved     main: './lib/ncp.js',
+518 silly install resolved     repository: { type: 'git', url: 'https://github.com/AvianFlu/ncp.git' },
+518 silly install resolved     keywords: [ 'cli', 'copy' ],
+518 silly install resolved     license: 'MIT',
+518 silly install resolved     engine: { node: '>=0.4' },
+518 silly install resolved     scripts: { test: 'vows --isolate --spec' },
+518 silly install resolved     _id: 'ncp@0.4.2',
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: 'abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz' },
+518 silly install resolved     _from: 'ncp@0.4.2',
+518 silly install resolved     _npmVersion: '1.2.2',
+518 silly install resolved     _npmUser: { name: 'avianflu', email: 'charlie@charlieistheman.com' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     directories: {},
+518 silly install resolved     _shasum: 'abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574',
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+518 silly install resolved     bugs: { url: 'https://github.com/AvianFlu/ncp/issues' },
+518 silly install resolved     readme: 'ERROR: No README data found!',
+518 silly install resolved     homepage: 'https://github.com/AvianFlu/ncp' },
+518 silly install resolved   { name: 'npmconf',
+518 silly install resolved     version: '0.0.24',
+518 silly install resolved     description: 'The config thing npm uses',
+518 silly install resolved     main: 'npmconf.js',
+518 silly install resolved     directories: { test: 'test' },
+518 silly install resolved     dependencies:
+518 silly install resolved      { 'config-chain': '~1.1.1',
+518 silly install resolved        inherits: '~1.0.0',
+518 silly install resolved        once: '~1.1.1',
+518 silly install resolved        mkdirp: '~0.3.3',
+518 silly install resolved        osenv: '0.0.3',
+518 silly install resolved        nopt: '2',
+518 silly install resolved        semver: '~1.1.0',
+518 silly install resolved        ini: '~1.1.0' },
+518 silly install resolved     devDependencies: {},
+518 silly install resolved     scripts: { test: 'tap test/*.js' },
+518 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npmconf' },
+518 silly install resolved     keywords: [ 'npm', 'config', 'config-chain', 'conf', 'ini' ],
+518 silly install resolved     author:
+518 silly install resolved      { name: 'Isaac Z. Schlueter',
+518 silly install resolved        email: 'i@izs.me',
+518 silly install resolved        url: 'http://blog.izs.me' },
+518 silly install resolved     license: 'BSD',
+518 silly install resolved     _id: 'npmconf@0.0.24',
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: 'b78875b088ccc3c0afa3eceb3ce3244b1b52390c',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/npmconf/-/npmconf-0.0.24.tgz' },
+518 silly install resolved     _from: 'npmconf@0.0.24',
+518 silly install resolved     _npmVersion: '1.2.18',
+518 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     _shasum: 'b78875b088ccc3c0afa3eceb3ce3244b1b52390c',
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/npmconf/-/npmconf-0.0.24.tgz',
+518 silly install resolved     bugs: { url: 'https://github.com/isaacs/npmconf/issues' },
+518 silly install resolved     readme: 'ERROR: No README data found!',
+518 silly install resolved     homepage: 'https://github.com/isaacs/npmconf' },
+518 silly install resolved   { author:
+518 silly install resolved      { name: 'Isaac Z. Schlueter',
+518 silly install resolved        email: 'i@izs.me',
+518 silly install resolved        url: 'http://blog.izs.me' },
+518 silly install resolved     name: 'which',
+518 silly install resolved     description: 'Like which(1) unix command. Find the first instance of an executable in the PATH.',
+518 silly install resolved     version: '1.0.9',
+518 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-which.git' },
+518 silly install resolved     main: 'which.js',
+518 silly install resolved     bin: { which: './bin/which' },
+518 silly install resolved     license: 'ISC',
+518 silly install resolved     gitHead: 'df3d52a0ecd5f366d550e0f14d67ca4d5e621bad',
+518 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-which/issues' },
+518 silly install resolved     homepage: 'https://github.com/isaacs/node-which',
+518 silly install resolved     _id: 'which@1.0.9',
+518 silly install resolved     scripts: {},
+518 silly install resolved     _shasum: '460c1da0f810103d0321a9b633af9e575e64486f',
+518 silly install resolved     _from: 'which@>=1.0.5 <1.1.0',
+518 silly install resolved     _npmVersion: '2.6.0',
+518 silly install resolved     _nodeVersion: '1.1.0',
+518 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: '460c1da0f810103d0321a9b633af9e575e64486f',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/which/-/which-1.0.9.tgz' },
+518 silly install resolved     directories: {},
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/which/-/which-1.0.9.tgz',
+518 silly install resolved     readme: 'ERROR: No README data found!' },
+518 silly install resolved   { name: 'adm-zip',
+518 silly install resolved     version: '0.2.1',
+518 silly install resolved     description: 'A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk',
+518 silly install resolved     keywords: [ 'zip', 'methods', 'archive', 'unzip' ],
+518 silly install resolved     homepage: 'http://github.com/cthackers/adm-zip',
+518 silly install resolved     author:
+518 silly install resolved      { name: 'Nasca Iacob',
+518 silly install resolved        email: 'sy@another-d-mention.ro',
+518 silly install resolved        url: 'https://github.com/cthackers' },
+518 silly install resolved     bugs:
+518 silly install resolved      { url: 'https://github.com/cthackers/adm-zip/issues',
+518 silly install resolved        email: 'sy@another-d-mention.ro' },
+518 silly install resolved     licenses: [ [Object] ],
+518 silly install resolved     main: 'adm-zip.js',
+518 silly install resolved     repository:
+518 silly install resolved      { type: 'git',
+518 silly install resolved        url: 'git://github.com/git@github.com:cthackers/adm-zip.git' },
+518 silly install resolved     engines: { node: '>=0.3.0' },
+518 silly install resolved     _id: 'adm-zip@0.2.1',
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: 'e801cedeb5bd9a4e98d699c5c0f4239e2731dcbf',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/adm-zip/-/adm-zip-0.2.1.tgz' },
+518 silly install resolved     _npmVersion: '1.2.0',
+518 silly install resolved     _npmUser: { name: 'cthackers', email: 'sy@another-d-mention.ro' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     directories: {},
+518 silly install resolved     _shasum: 'e801cedeb5bd9a4e98d699c5c0f4239e2731dcbf',
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.2.1.tgz',
+518 silly install resolved     _from: 'adm-zip@0.2.1',
+518 silly install resolved     readme: 'ERROR: No README data found!' },
+518 silly install resolved   { name: 'kew',
+518 silly install resolved     description: 'a lightweight promise library for node',
+518 silly install resolved     version: '0.1.7',
+518 silly install resolved     homepage: 'https://github.com/Obvious/kew',
+518 silly install resolved     authors: [ 'Jeremy Stanley <github@azulus.com> (https://github.com/azulus)' ],
+518 silly install resolved     contributors: [],
+518 silly install resolved     keywords: [ 'kew', 'promises' ],
+518 silly install resolved     main: './kew.js',
+518 silly install resolved     repository: { type: 'git', url: 'https://github.com/Obvious/kew.git' },
+518 silly install resolved     dependencies: {},
+518 silly install resolved     devDependencies: { nodeunit: '0.7.4' },
+518 silly install resolved     scripts: { test: './node_modules/nodeunit/bin/nodeunit test' },
+518 silly install resolved     _id: 'kew@0.1.7',
+518 silly install resolved     dist:
+518 silly install resolved      { shasum: '0a32a817ff1a9b3b12b8c9bacf4bc4d679af8e72',
+518 silly install resolved        tarball: 'http://registry.npmjs.org/kew/-/kew-0.1.7.tgz' },
+518 silly install resolved     _from: 'kew@>=0.1.7 <0.2.0',
+518 silly install resolved     _npmVersion: '1.2.18',
+518 silly install resolved     _npmUser: { name: 'azulus', email: 'jeremy@obvious.com' },
+518 silly install resolved     maintainers: [ [Object] ],
+518 silly install resolved     directories: {},
+518 silly install resolved     _shasum: '0a32a817ff1a9b3b12b8c9bacf4bc4d679af8e72',
+518 silly install resolved     _resolved: 'https://registry.npmjs.org/kew/-/kew-0.1.7.tgz',
+518 silly install resolved     bugs: { url: 'https://github.com/Obvious/kew/issues' },
+518 silly install resolved     readme: 'ERROR: No README data found!' } ]
+519 info install rimraf@2.2.8 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+520 info install mkdirp@0.3.5 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+521 info install ncp@0.4.2 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+522 info install npmconf@0.0.24 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+523 info install which@1.0.9 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+524 info install adm-zip@0.2.1 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+525 info install kew@0.1.7 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+526 info installOne rimraf@2.2.8
+527 verbose installOne of rimraf to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+528 info installOne mkdirp@0.3.5
+529 verbose installOne of mkdirp to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+530 info installOne ncp@0.4.2
+531 verbose installOne of ncp to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+532 info installOne npmconf@0.0.24
+533 verbose installOne of npmconf to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+534 info installOne which@1.0.9
+535 verbose installOne of which to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+536 info installOne adm-zip@0.2.1
+537 verbose installOne of adm-zip to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+538 info installOne kew@0.1.7
+539 verbose installOne of kew to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs not in flight; installing
+540 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\mkdirp-e1308efd04509a5d.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+541 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\ncp-f3806bbff2b63360.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+542 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\rimraf-d50a35225fdf4c63.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+543 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\npmconf-8b527187dc814d37.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+544 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\kew-a8c52eeca3f2e933.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+545 silly install write writing mkdirp 0.3.5 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+546 silly cache addNamed cb mkdirp@0.3.5
+547 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+548 silly install write writing ncp 0.4.2 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+549 silly cache addNamed cb ncp@0.4.2
+550 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+551 silly install write writing rimraf 2.2.8 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+552 silly cache addNamed cb rimraf@2.2.8
+553 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+554 silly install write writing npmconf 0.0.24 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+555 silly cache addNamed cb npmconf@0.0.24
+556 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+557 silly install write writing kew 0.1.7 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+558 silly cache addNamed cb kew@0.1.7
+559 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+560 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\which-06f7df5e807758be.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+561 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\adm-zip-ece9917f80eb95bc.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+562 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp is being purged from base C:\Users\xugang\AppData\Roaming\npm
+563 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+564 silly install write writing which 1.0.9 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+565 silly cache addNamed cb which@1.0.9
+566 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+567 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp is being purged from base C:\Users\xugang\AppData\Roaming\npm
+568 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+569 silly install write writing adm-zip 0.2.1 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+570 silly cache addNamed cb adm-zip@0.2.1
+571 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+572 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf is being purged from base C:\Users\xugang\AppData\Roaming\npm
+573 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+574 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf is being purged from base C:\Users\xugang\AppData\Roaming\npm
+575 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+576 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew is being purged from base C:\Users\xugang\AppData\Roaming\npm
+577 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+578 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+579 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+580 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp is being purged
+581 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+582 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz
+583 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+584 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp is being purged
+585 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+586 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz
+587 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+588 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf is being purged
+589 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+590 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz
+591 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+592 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf is being purged
+593 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+594 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz
+595 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+596 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew is being purged
+597 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+598 silly gunzTarPerm modes [ '777', '666' ]
+599 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which is being purged from base C:\Users\xugang\AppData\Roaming\npm
+600 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+601 silly gunzTarPerm modes [ '777', '666' ]
+602 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip is being purged from base C:\Users\xugang\AppData\Roaming\npm
+603 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+604 silly gunzTarPerm modes [ '777', '666' ]
+605 silly gunzTarPerm modes [ '777', '666' ]
+606 silly gunzTarPerm modes [ '777', '666' ]
+607 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+608 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+609 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which is being purged
+610 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+611 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz
+612 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+613 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip is being purged
+614 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+615 silly gunzTarPerm modes [ '777', '666' ]
+616 silly gunzTarPerm modes [ '777', '666' ]
+617 silly gunzTarPerm extractEntry package.json
+618 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+619 silly gunzTarPerm extractEntry package.json
+620 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+621 silly gunzTarPerm extractEntry package.json
+622 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+623 silly gunzTarPerm extractEntry package.json
+624 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+625 silly gunzTarPerm extractEntry .npmignore
+626 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+627 silly gunzTarPerm extractEntry LICENSE
+628 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+629 silly gunzTarPerm extractEntry .npmignore
+630 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+631 silly gunzTarPerm extractEntry README.md
+632 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+633 silly gunzTarPerm extractEntry .npmignore
+634 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+635 silly gunzTarPerm extractEntry README.md
+636 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+637 silly gunzTarPerm extractEntry README.md
+638 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+639 silly gunzTarPerm extractEntry LICENSE
+640 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+641 silly gunzTarPerm extractEntry package.json
+642 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+643 silly gunzTarPerm extractEntry index.js
+644 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+645 silly gunzTarPerm extractEntry examples/pow.js
+646 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 438 ]
+647 silly gunzTarPerm extractEntry .npmignore
+648 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+649 silly gunzTarPerm extractEntry README.md
+650 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+651 silly gunzTarPerm extractEntry .travis.yml
+652 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+653 silly gunzTarPerm extractEntry bin/ncp
+654 silly gunzTarPerm modified mode [ 'bin/ncp', 493, 511 ]
+655 silly gunzTarPerm extractEntry bin.js
+656 silly gunzTarPerm modified mode [ 'bin.js', 493, 511 ]
+657 silly gunzTarPerm extractEntry rimraf.js
+658 silly gunzTarPerm modified mode [ 'rimraf.js', 420, 438 ]
+659 silly gunzTarPerm extractEntry LICENSE
+660 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+661 silly gunzTarPerm extractEntry config-defs.js
+662 silly gunzTarPerm modified mode [ 'config-defs.js', 420, 438 ]
+663 silly gunzTarPerm extractEntry package.json
+664 silly gunzTarPerm extractEntry readme.markdown
+665 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+666 silly gunzTarPerm extractEntry test/perm.js
+667 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 438 ]
+668 silly gunzTarPerm extractEntry README.md
+669 silly gunzTarPerm extractEntry zipEntry.js
+670 silly gunzTarPerm extractEntry lib/ncp.js
+671 silly gunzTarPerm modified mode [ 'lib/ncp.js', 420, 438 ]
+672 silly gunzTarPerm extractEntry LICENSE.md
+673 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+674 silly gunzTarPerm extractEntry kew.js
+675 silly gunzTarPerm modified mode [ 'kew.js', 420, 438 ]
+676 silly gunzTarPerm extractEntry LICENSE.TXT
+677 silly gunzTarPerm modified mode [ 'LICENSE.TXT', 420, 438 ]
+678 silly gunzTarPerm extractEntry test/chain.js
+679 silly gunzTarPerm modified mode [ 'test/chain.js', 420, 438 ]
+680 silly gunzTarPerm extractEntry test/context.js
+681 silly gunzTarPerm modified mode [ 'test/context.js', 420, 438 ]
+682 silly gunzTarPerm extractEntry test/defer.js
+683 silly gunzTarPerm modified mode [ 'test/defer.js', 420, 438 ]
+684 silly gunzTarPerm extractEntry test/static.js
+685 silly gunzTarPerm modified mode [ 'test/static.js', 420, 438 ]
+686 silly gunzTarPerm extractEntry npmconf.js
+687 silly gunzTarPerm modified mode [ 'npmconf.js', 420, 438 ]
+688 silly gunzTarPerm extractEntry AUTHORS
+689 silly gunzTarPerm modified mode [ 'AUTHORS', 420, 438 ]
+690 silly gunzTarPerm extractEntry test/test-async.js
+691 silly gunzTarPerm modified mode [ 'test/test-async.js', 420, 438 ]
+692 silly gunzTarPerm extractEntry package.json
+693 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+694 silly gunzTarPerm extractEntry sandbox.js
+695 silly gunzTarPerm extractEntry adm-zip.js
+696 silly gunzTarPerm extractEntry test/perm_sync.js
+697 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 438 ]
+698 silly gunzTarPerm extractEntry test/race.js
+699 silly gunzTarPerm modified mode [ 'test/race.js', 420, 438 ]
+700 silly gunzTarPerm extractEntry README.md
+701 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+702 silly gunzTarPerm extractEntry LICENSE
+703 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+704 silly gunzTarPerm extractEntry test/00-setup.js
+705 silly gunzTarPerm modified mode [ 'test/00-setup.js', 420, 438 ]
+706 silly gunzTarPerm extractEntry test/basic.js
+707 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 438 ]
+708 silly gunzTarPerm extractEntry test/test-sync.js
+709 silly gunzTarPerm modified mode [ 'test/test-sync.js', 420, 438 ]
+710 silly gunzTarPerm extractEntry test/run.sh
+711 silly gunzTarPerm modified mode [ 'test/run.sh', 420, 438 ]
+712 silly gunzTarPerm extractEntry test/ncp-test.js
+713 silly gunzTarPerm modified mode [ 'test/ncp-test.js', 420, 438 ]
+714 silly gunzTarPerm extractEntry test/fixtures/src/a
+715 silly gunzTarPerm modified mode [ 'test/fixtures/src/a', 420, 438 ]
+716 silly gunzTarPerm extractEntry test/fixtures/src/b
+717 silly gunzTarPerm modified mode [ 'test/fixtures/src/b', 420, 438 ]
+718 silly gunzTarPerm extractEntry test/fixtures/src/c
+719 silly gunzTarPerm modified mode [ 'test/fixtures/src/c', 420, 438 ]
+720 silly gunzTarPerm extractEntry test/fixtures/src/d
+721 silly gunzTarPerm modified mode [ 'test/fixtures/src/d', 420, 438 ]
+722 silly gunzTarPerm extractEntry test/fixtures/src/e
+723 silly gunzTarPerm modified mode [ 'test/fixtures/src/e', 420, 438 ]
+724 silly gunzTarPerm extractEntry test/fixtures/src/f
+725 silly gunzTarPerm modified mode [ 'test/fixtures/src/f', 420, 438 ]
+726 silly gunzTarPerm extractEntry test/fixtures/src/sub/a
+727 silly gunzTarPerm modified mode [ 'test/fixtures/src/sub/a', 420, 438 ]
+728 silly gunzTarPerm extractEntry test/fixtures/src/sub/b
+729 silly gunzTarPerm modified mode [ 'test/fixtures/src/sub/b', 420, 438 ]
+730 silly gunzTarPerm extractEntry which.js
+731 silly gunzTarPerm modified mode [ 'which.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry bin/which
+733 silly gunzTarPerm modified mode [ 'bin/which', 493, 511 ]
+734 silly gunzTarPerm extractEntry zipFile.js
+735 silly gunzTarPerm extractEntry test/rel.js
+736 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 438 ]
+737 silly gunzTarPerm extractEntry test/setup.sh
+738 silly gunzTarPerm modified mode [ 'test/setup.sh', 420, 438 ]
+739 silly gunzTarPerm extractEntry test/builtin.js
+740 silly gunzTarPerm modified mode [ 'test/builtin.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry test/save.js
+742 silly gunzTarPerm modified mode [ 'test/save.js', 420, 438 ]
+743 silly gunzTarPerm extractEntry test/return.js
+744 silly gunzTarPerm modified mode [ 'test/return.js', 420, 438 ]
+745 silly gunzTarPerm extractEntry test/clobber.js
+746 silly gunzTarPerm modified mode [ 'test/clobber.js', 420, 438 ]
+747 silly gunzTarPerm extractEntry test/root.js
+748 silly gunzTarPerm modified mode [ 'test/root.js', 420, 438 ]
+749 silly gunzTarPerm extractEntry test/umask.js
+750 silly gunzTarPerm modified mode [ 'test/umask.js', 420, 438 ]
+751 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+752 silly gunzTarPerm extractEntry methods/deflater.js
+753 silly gunzTarPerm extractEntry test/sync.js
+754 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+755 silly gunzTarPerm extractEntry test/chmod.js
+756 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 438 ]
+757 silly gunzTarPerm extractEntry methods/index.js
+758 silly gunzTarPerm extractEntry methods/inflater.js
+759 silly gunzTarPerm extractEntry test/fixtures/builtin
+760 silly gunzTarPerm modified mode [ 'test/fixtures/builtin', 420, 438 ]
+761 silly gunzTarPerm extractEntry test/fixtures/globalconfig
+762 silly gunzTarPerm modified mode [ 'test/fixtures/globalconfig', 420, 438 ]
+763 silly gunzTarPerm extractEntry test/umask_sync.js
+764 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 420, 438 ]
+765 silly gunzTarPerm extractEntry test/return_sync.js
+766 silly gunzTarPerm modified mode [ 'test/return_sync.js', 420, 438 ]
+767 info preinstall which@1.0.9
+768 silly gunzTarPerm extractEntry test/mkdirp.js
+769 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 420, 438 ]
+770 silly gunzTarPerm extractEntry .travis.yml
+771 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+772 silly install resolved []
+773 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+774 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+775 verbose linkStuff [ true,
+775 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+775 verbose linkStuff   false,
+775 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+776 info linkStuff which@1.0.9
+777 verbose linkBins which@1.0.9
+778 verbose link bins [ { which: './bin/which' },
+778 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+778 verbose link bins   false ]
+779 verbose linkMans which@1.0.9
+780 verbose rebuildBundles which@1.0.9
+781 silly gunzTarPerm extractEntry test/fixtures/userconfig
+782 silly gunzTarPerm modified mode [ 'test/fixtures/userconfig', 420, 438 ]
+783 info install which@1.0.9
+784 silly gunzTarPerm extractEntry util/constants.js
+785 silly gunzTarPerm extractEntry util/errors.js
+786 info postinstall which@1.0.9
+787 info preinstall rimraf@2.2.8
+788 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\which-06f7df5e807758be.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+789 silly install resolved []
+790 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+791 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+792 verbose linkStuff [ true,
+792 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+792 verbose linkStuff   false,
+792 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+793 info linkStuff rimraf@2.2.8
+794 verbose linkBins rimraf@2.2.8
+795 verbose link bins [ { rimraf: './bin.js' },
+795 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+795 verbose link bins   false ]
+796 verbose linkMans rimraf@2.2.8
+797 verbose rebuildBundles rimraf@2.2.8
+798 silly gunzTarPerm extractEntry util/fattr.js
+799 silly gunzTarPerm extractEntry util/index.js
+800 info install rimraf@2.2.8
+801 info postinstall rimraf@2.2.8
+802 silly gunzTarPerm extractEntry util/utils.js
+803 silly gunzTarPerm extractEntry headers/dataHeader.js
+804 silly gunzTarPerm extractEntry headers/entryHeader.js
+805 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\rimraf-d50a35225fdf4c63.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+806 info preinstall ncp@0.4.2
+807 silly gunzTarPerm extractEntry headers/index.js
+808 silly install resolved []
+809 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+810 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+811 verbose linkStuff [ true,
+811 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+811 verbose linkStuff   false,
+811 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+812 info linkStuff ncp@0.4.2
+813 verbose linkBins ncp@0.4.2
+814 verbose link bins [ { ncp: './bin/ncp' },
+814 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+814 verbose link bins   false ]
+815 verbose linkMans ncp@0.4.2
+816 verbose rebuildBundles ncp@0.4.2
+817 info preinstall npmconf@0.0.24
+818 info preinstall kew@0.1.7
+819 silly prepareForInstallMany adding config-chain@~1.1.1 from npmconf dependencies
+820 silly prepareForInstallMany adding inherits@~1.0.0 from npmconf dependencies
+821 silly prepareForInstallMany adding once@~1.1.1 from npmconf dependencies
+822 silly prepareForInstallMany adding osenv@0.0.3 from npmconf dependencies
+823 silly prepareForInstallMany adding nopt@2 from npmconf dependencies
+824 silly prepareForInstallMany adding semver@~1.1.0 from npmconf dependencies
+825 silly prepareForInstallMany adding ini@~1.1.0 from npmconf dependencies
+826 silly install resolved []
+827 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+828 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+829 verbose linkStuff [ true,
+829 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+829 verbose linkStuff   false,
+829 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+830 info linkStuff kew@0.1.7
+831 silly cache add args [ 'semver@~1.1.0', null ]
+832 verbose cache add spec semver@~1.1.0
+833 silly cache add parsed spec { raw: 'semver@~1.1.0',
+833 silly cache add   scope: null,
+833 silly cache add   name: 'semver',
+833 silly cache add   rawSpec: '~1.1.0',
+833 silly cache add   spec: '>=1.1.0 <1.2.0',
+833 silly cache add   type: 'range' }
+834 verbose addNamed semver@>=1.1.0 <1.2.0
+835 silly addNamed semver.valid null
+836 silly addNamed semver.validRange >=1.1.0 <1.2.0
+837 silly addNameRange { name: 'semver', range: '>=1.1.0 <1.2.0', hasData: false }
+838 silly mapToRegistry name semver
+839 silly mapToRegistry using default registry
+840 silly mapToRegistry registry https://registry.npmjs.org/
+841 silly mapToRegistry uri https://registry.npmjs.org/semver
+842 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+843 silly cache add args [ 'ini@~1.1.0', null ]
+844 verbose cache add spec ini@~1.1.0
+845 silly cache add parsed spec { raw: 'ini@~1.1.0',
+845 silly cache add   scope: null,
+845 silly cache add   name: 'ini',
+845 silly cache add   rawSpec: '~1.1.0',
+845 silly cache add   spec: '>=1.1.0 <1.2.0',
+845 silly cache add   type: 'range' }
+846 verbose addNamed ini@>=1.1.0 <1.2.0
+847 silly addNamed semver.valid null
+848 silly addNamed semver.validRange >=1.1.0 <1.2.0
+849 silly addNameRange { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: false }
+850 silly mapToRegistry name ini
+851 silly mapToRegistry using default registry
+852 silly mapToRegistry registry https://registry.npmjs.org/
+853 silly mapToRegistry uri https://registry.npmjs.org/ini
+854 verbose addNameRange registry:https://registry.npmjs.org/ini not in flight; fetching
+855 silly cache add args [ 'config-chain@~1.1.1', null ]
+856 verbose cache add spec config-chain@~1.1.1
+857 silly cache add parsed spec { raw: 'config-chain@~1.1.1',
+857 silly cache add   scope: null,
+857 silly cache add   name: 'config-chain',
+857 silly cache add   rawSpec: '~1.1.1',
+857 silly cache add   spec: '>=1.1.1 <1.2.0',
+857 silly cache add   type: 'range' }
+858 verbose addNamed config-chain@>=1.1.1 <1.2.0
+859 silly addNamed semver.valid null
+860 silly addNamed semver.validRange >=1.1.1 <1.2.0
+861 silly addNameRange { name: 'config-chain', range: '>=1.1.1 <1.2.0', hasData: false }
+862 silly mapToRegistry name config-chain
+863 silly mapToRegistry using default registry
+864 silly mapToRegistry registry https://registry.npmjs.org/
+865 silly mapToRegistry uri https://registry.npmjs.org/config-chain
+866 verbose addNameRange registry:https://registry.npmjs.org/config-chain not in flight; fetching
+867 silly cache add args [ 'inherits@~1.0.0', null ]
+868 verbose cache add spec inherits@~1.0.0
+869 silly cache add parsed spec { raw: 'inherits@~1.0.0',
+869 silly cache add   scope: null,
+869 silly cache add   name: 'inherits',
+869 silly cache add   rawSpec: '~1.0.0',
+869 silly cache add   spec: '>=1.0.0 <1.1.0',
+869 silly cache add   type: 'range' }
+870 verbose addNamed inherits@>=1.0.0 <1.1.0
+871 silly addNamed semver.valid null
+872 silly addNamed semver.validRange >=1.0.0 <1.1.0
+873 silly addNameRange { name: 'inherits', range: '>=1.0.0 <1.1.0', hasData: false }
+874 silly mapToRegistry name inherits
+875 silly mapToRegistry using default registry
+876 silly mapToRegistry registry https://registry.npmjs.org/
+877 silly mapToRegistry uri https://registry.npmjs.org/inherits
+878 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+879 silly cache add args [ 'once@~1.1.1', null ]
+880 verbose cache add spec once@~1.1.1
+881 silly cache add parsed spec { raw: 'once@~1.1.1',
+881 silly cache add   scope: null,
+881 silly cache add   name: 'once',
+881 silly cache add   rawSpec: '~1.1.1',
+881 silly cache add   spec: '>=1.1.1 <1.2.0',
+881 silly cache add   type: 'range' }
+882 verbose addNamed once@>=1.1.1 <1.2.0
+883 silly addNamed semver.valid null
+884 silly addNamed semver.validRange >=1.1.1 <1.2.0
+885 silly addNameRange { name: 'once', range: '>=1.1.1 <1.2.0', hasData: false }
+886 silly mapToRegistry name once
+887 silly mapToRegistry using default registry
+888 silly mapToRegistry registry https://registry.npmjs.org/
+889 silly mapToRegistry uri https://registry.npmjs.org/once
+890 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+891 silly cache add args [ 'osenv@0.0.3', null ]
+892 verbose cache add spec osenv@0.0.3
+893 silly cache add parsed spec { raw: 'osenv@0.0.3',
+893 silly cache add   scope: null,
+893 silly cache add   name: 'osenv',
+893 silly cache add   rawSpec: '0.0.3',
+893 silly cache add   spec: '0.0.3',
+893 silly cache add   type: 'version' }
+894 verbose addNamed osenv@0.0.3
+895 silly addNamed semver.valid 0.0.3
+896 silly addNamed semver.validRange 0.0.3
+897 silly mapToRegistry name osenv
+898 silly mapToRegistry using default registry
+899 silly mapToRegistry registry https://registry.npmjs.org/
+900 silly mapToRegistry uri https://registry.npmjs.org/osenv
+901 verbose addNameVersion registry:https://registry.npmjs.org/osenv not in flight; fetching
+902 silly cache add args [ 'nopt@2', null ]
+903 verbose cache add spec nopt@2
+904 silly cache add parsed spec { raw: 'nopt@2',
+904 silly cache add   scope: null,
+904 silly cache add   name: 'nopt',
+904 silly cache add   rawSpec: '2',
+904 silly cache add   spec: '>=2.0.0 <3.0.0',
+904 silly cache add   type: 'range' }
+905 verbose addNamed nopt@>=2.0.0 <3.0.0
+906 silly addNamed semver.valid null
+907 silly addNamed semver.validRange >=2.0.0 <3.0.0
+908 silly addNameRange { name: 'nopt', range: '>=2.0.0 <3.0.0', hasData: false }
+909 silly mapToRegistry name nopt
+910 silly mapToRegistry using default registry
+911 silly mapToRegistry registry https://registry.npmjs.org/
+912 silly mapToRegistry uri https://registry.npmjs.org/nopt
+913 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+914 verbose linkBins kew@0.1.7
+915 verbose linkMans kew@0.1.7
+916 verbose rebuildBundles kew@0.1.7
+917 info install kew@0.1.7
+918 info postinstall kew@0.1.7
+919 verbose request uri https://registry.npmjs.org/semver
+920 verbose request no auth needed
+921 info attempt registry request try #1 at 00:00:10
+922 verbose etag "BRQ3SKK4LD24T6TQYA0WKY7J5"
+923 http request GET https://registry.npmjs.org/semver
+924 info install ncp@0.4.2
+925 verbose request uri https://registry.npmjs.org/config-chain
+926 verbose request no auth needed
+927 info attempt registry request try #1 at 00:00:10
+928 verbose etag "2CZSVTRGUQZXXZJI8XV5S3CGJ"
+929 http request GET https://registry.npmjs.org/config-chain
+930 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\kew-a8c52eeca3f2e933.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+931 info postinstall ncp@0.4.2
+932 verbose request uri https://registry.npmjs.org/once
+933 verbose request no auth needed
+934 info attempt registry request try #1 at 00:00:10
+935 verbose etag "8F58MSCPFHXKILOYMAGZSEZBH"
+936 http request GET https://registry.npmjs.org/once
+937 verbose request uri https://registry.npmjs.org/osenv
+938 verbose request no auth needed
+939 info attempt registry request try #1 at 00:00:10
+940 verbose etag "AIG648861D2VP5RAO0O3EF639"
+941 http request GET https://registry.npmjs.org/osenv
+942 info preinstall mkdirp@0.3.5
+943 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\ncp-f3806bbff2b63360.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+944 silly install resolved []
+945 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+946 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+947 verbose linkStuff [ true,
+947 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+947 verbose linkStuff   false,
+947 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+948 info linkStuff mkdirp@0.3.5
+949 verbose request uri https://registry.npmjs.org/inherits
+950 verbose request no auth needed
+951 info attempt registry request try #1 at 00:00:10
+952 verbose etag "23748IIFBI9UHIXA5WTETU9N1"
+953 http request GET https://registry.npmjs.org/inherits
+954 verbose linkBins mkdirp@0.3.5
+955 verbose linkMans mkdirp@0.3.5
+956 verbose rebuildBundles mkdirp@0.3.5
+957 info install mkdirp@0.3.5
+958 verbose request uri https://registry.npmjs.org/ini
+959 verbose request no auth needed
+960 info attempt registry request try #1 at 00:00:10
+961 verbose etag "C8SRA3I1RA969YHBD3W9WA881"
+962 http request GET https://registry.npmjs.org/ini
+963 info postinstall mkdirp@0.3.5
+964 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\mkdirp-e1308efd04509a5d.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+965 silly gunzTarPerm extractEntry headers/mainHeader.js
+966 silly gunzTarPerm extractEntry .travis.yml
+967 verbose request uri https://registry.npmjs.org/nopt
+968 verbose request no auth needed
+969 info attempt registry request try #1 at 00:00:10
+970 verbose etag "33E51D7L2VL4IWEQQYT6B6P9H"
+971 http request GET https://registry.npmjs.org/nopt
+972 info preinstall adm-zip@0.2.1
+973 silly install resolved []
+974 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+975 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+976 verbose linkStuff [ true,
+976 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+976 verbose linkStuff   false,
+976 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+977 info linkStuff adm-zip@0.2.1
+978 verbose linkBins adm-zip@0.2.1
+979 verbose linkMans adm-zip@0.2.1
+980 verbose rebuildBundles adm-zip@0.2.1
+981 info install adm-zip@0.2.1
+982 info postinstall adm-zip@0.2.1
+983 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\adm-zip-ece9917f80eb95bc.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+984 http 304 https://registry.npmjs.org/semver
+985 silly get cb [ 304,
+985 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+985 silly get     via: '1.1 varnish',
+985 silly get     'last-modified': 'Thu, 07 May 2015 16:00:09 GMT',
+985 silly get     'cache-control': 'max-age=60',
+985 silly get     etag: '"BRQ3SKK4LD24T6TQYA0WKY7J5"',
+985 silly get     age: '2',
+985 silly get     connection: 'keep-alive',
+985 silly get     'x-served-by': 'cache-nrt6125-NRT',
+985 silly get     'x-cache': 'HIT',
+985 silly get     'x-cache-hits': '2',
+985 silly get     'x-timer': 'S1431014411.849414,VS0,VE0',
+985 silly get     vary: 'Accept' } ]
+986 verbose etag https://registry.npmjs.org/semver from cache
+987 verbose get saving semver to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\semver\.cache.json
+988 silly addNameRange number 2 { name: 'semver', range: '>=1.1.0 <1.2.0', hasData: true }
+989 silly addNameRange versions [ 'semver',
+989 silly addNameRange   [ '1.0.0',
+989 silly addNameRange     '1.0.1',
+989 silly addNameRange     '1.0.2',
+989 silly addNameRange     '1.0.3',
+989 silly addNameRange     '1.0.4',
+989 silly addNameRange     '1.0.5',
+989 silly addNameRange     '1.0.6',
+989 silly addNameRange     '1.0.7',
+989 silly addNameRange     '1.0.8',
+989 silly addNameRange     '1.0.9',
+989 silly addNameRange     '1.0.10',
+989 silly addNameRange     '1.0.11',
+989 silly addNameRange     '1.0.12',
+989 silly addNameRange     '1.0.13',
+989 silly addNameRange     '1.0.14',
+989 silly addNameRange     '1.1.0',
+989 silly addNameRange     '1.1.1',
+989 silly addNameRange     '1.1.2',
+989 silly addNameRange     '1.1.3',
+989 silly addNameRange     '1.1.4',
+989 silly addNameRange     '2.0.0-alpha',
+989 silly addNameRange     '2.0.0-beta',
+989 silly addNameRange     '2.0.1',
+989 silly addNameRange     '2.0.2',
+989 silly addNameRange     '2.0.3',
+989 silly addNameRange     '2.0.4',
+989 silly addNameRange     '2.0.5',
+989 silly addNameRange     '2.0.6',
+989 silly addNameRange     '2.0.7',
+989 silly addNameRange     '2.0.8',
+989 silly addNameRange     '2.0.9',
+989 silly addNameRange     '2.0.10',
+989 silly addNameRange     '2.0.11',
+989 silly addNameRange     '2.1.0',
+989 silly addNameRange     '2.2.0',
+989 silly addNameRange     '2.2.1',
+989 silly addNameRange     '2.3.0',
+989 silly addNameRange     '2.3.1',
+989 silly addNameRange     '2.3.2',
+989 silly addNameRange     '3.0.0',
+989 silly addNameRange     '3.0.1',
+989 silly addNameRange     '4.0.0',
+989 silly addNameRange     '4.0.2',
+989 silly addNameRange     '4.0.3',
+989 silly addNameRange     '4.1.0',
+989 silly addNameRange     '4.1.1',
+989 silly addNameRange     '4.2.0',
+989 silly addNameRange     '4.2.1',
+989 silly addNameRange     '4.2.2',
+989 silly addNameRange     '4.3.0',
+989 silly addNameRange     '4.3.1',
+989 silly addNameRange     '4.3.2',
+989 silly addNameRange     '4.3.3',
+989 silly addNameRange     '4.3.4' ] ]
+990 verbose addNamed semver@1.1.4
+991 silly addNamed semver.valid 1.1.4
+992 silly addNamed semver.validRange 1.1.4
+993 http 304 https://registry.npmjs.org/osenv
+994 silly get cb [ 304,
+994 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+994 silly get     via: '1.1 varnish',
+994 silly get     'last-modified': 'Thu, 07 May 2015 16:00:11 GMT',
+994 silly get     'cache-control': 'max-age=60',
+994 silly get     etag: '"AIG648861D2VP5RAO0O3EF639"',
+994 silly get     age: '1',
+994 silly get     connection: 'keep-alive',
+994 silly get     'x-served-by': 'cache-nrt6132-NRT',
+994 silly get     'x-cache': 'HIT',
+994 silly get     'x-cache-hits': '1',
+994 silly get     'x-timer': 'S1431014411.861730,VS0,VE0',
+994 silly get     vary: 'Accept' } ]
+995 verbose etag https://registry.npmjs.org/osenv from cache
+996 verbose get saving osenv to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\osenv\.cache.json
+997 http 304 https://registry.npmjs.org/once
+998 silly get cb [ 304,
+998 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+998 silly get     via: '1.1 varnish',
+998 silly get     'last-modified': 'Thu, 07 May 2015 16:00:11 GMT',
+998 silly get     'cache-control': 'max-age=60',
+998 silly get     etag: '"8F58MSCPFHXKILOYMAGZSEZBH"',
+998 silly get     age: '34',
+998 silly get     connection: 'keep-alive',
+998 silly get     'x-served-by': 'cache-nrt6126-NRT',
+998 silly get     'x-cache': 'HIT',
+998 silly get     'x-cache-hits': '1',
+998 silly get     'x-timer': 'S1431014411.868502,VS0,VE0',
+998 silly get     vary: 'Accept' } ]
+999 verbose etag https://registry.npmjs.org/once from cache
+1000 verbose get saving once to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\once\.cache.json
+1001 http 304 https://registry.npmjs.org/ini
+1002 silly get cb [ 304,
+1002 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+1002 silly get     via: '1.1 varnish',
+1002 silly get     'cache-control': 'max-age=60',
+1002 silly get     etag: '"C8SRA3I1RA969YHBD3W9WA881"',
+1002 silly get     age: '0',
+1002 silly get     connection: 'keep-alive',
+1002 silly get     'x-served-by': 'cache-nrt6129-NRT',
+1002 silly get     'x-cache': 'HIT',
+1002 silly get     'x-cache-hits': '1',
+1002 silly get     'x-timer': 'S1431014411.870814,VS0,VE0',
+1002 silly get     vary: 'Accept' } ]
+1003 verbose etag https://registry.npmjs.org/ini from cache
+1004 verbose get saving ini to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\ini\.cache.json
+1005 http 304 https://registry.npmjs.org/inherits
+1006 silly get cb [ 304,
+1006 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+1006 silly get     via: '1.1 varnish',
+1006 silly get     'cache-control': 'max-age=60',
+1006 silly get     etag: '"23748IIFBI9UHIXA5WTETU9N1"',
+1006 silly get     age: '59',
+1006 silly get     connection: 'keep-alive',
+1006 silly get     'x-served-by': 'cache-nrt6131-NRT',
+1006 silly get     'x-cache': 'HIT',
+1006 silly get     'x-cache-hits': '2',
+1006 silly get     'x-timer': 'S1431014411.877608,VS0,VE0',
+1006 silly get     vary: 'Accept' } ]
+1007 verbose etag https://registry.npmjs.org/inherits from cache
+1008 verbose get saving inherits to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\inherits\.cache.json
+1009 http 304 https://registry.npmjs.org/nopt
+1010 silly get cb [ 304,
+1010 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+1010 silly get     via: '1.1 varnish',
+1010 silly get     'last-modified': 'Thu, 07 May 2015 16:00:11 GMT',
+1010 silly get     'cache-control': 'max-age=60',
+1010 silly get     etag: '"33E51D7L2VL4IWEQQYT6B6P9H"',
+1010 silly get     age: '3',
+1010 silly get     connection: 'keep-alive',
+1010 silly get     'x-served-by': 'cache-nrt6126-NRT',
+1010 silly get     'x-cache': 'HIT',
+1010 silly get     'x-cache-hits': '1',
+1010 silly get     'x-timer': 'S1431014411.881384,VS0,VE0',
+1010 silly get     vary: 'Accept' } ]
+1011 verbose etag https://registry.npmjs.org/nopt from cache
+1012 verbose get saving nopt to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\nopt\.cache.json
+1013 silly addNameRange number 2 { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: true }
+1014 silly addNameRange versions [ 'ini',
+1014 silly addNameRange   [ '1.0.0',
+1014 silly addNameRange     '1.0.1',
+1014 silly addNameRange     '1.0.2',
+1014 silly addNameRange     '1.0.3',
+1014 silly addNameRange     '1.0.4',
+1014 silly addNameRange     '1.0.5',
+1014 silly addNameRange     '1.1.0',
+1014 silly addNameRange     '1.2.0',
+1014 silly addNameRange     '1.2.1',
+1014 silly addNameRange     '1.3.0',
+1014 silly addNameRange     '1.3.1',
+1014 silly addNameRange     '1.3.2',
+1014 silly addNameRange     '1.3.3' ] ]
+1015 verbose addNamed ini@1.1.0
+1016 silly addNamed semver.valid 1.1.0
+1017 silly addNamed semver.validRange 1.1.0
+1018 silly addNameRange number 2 { name: 'inherits', range: '>=1.0.0 <1.1.0', hasData: true }
+1019 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+1020 verbose addNamed inherits@1.0.0
+1021 silly addNamed semver.valid 1.0.0
+1022 silly addNamed semver.validRange 1.0.0
+1023 silly addNameRange number 2 { name: 'once', range: '>=1.1.1 <1.2.0', hasData: true }
+1024 silly addNameRange versions [ 'once', [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2' ] ]
+1025 verbose addNamed once@1.1.1
+1026 silly addNamed semver.valid 1.1.1
+1027 silly addNamed semver.validRange 1.1.1
+1028 silly addNameRange number 2 { name: 'nopt', range: '>=2.0.0 <3.0.0', hasData: true }
+1029 silly addNameRange versions [ 'nopt',
+1029 silly addNameRange   [ '1.0.0',
+1029 silly addNameRange     '1.0.1',
+1029 silly addNameRange     '1.0.2',
+1029 silly addNameRange     '1.0.3',
+1029 silly addNameRange     '1.0.4',
+1029 silly addNameRange     '1.0.5',
+1029 silly addNameRange     '1.0.6',
+1029 silly addNameRange     '1.0.7',
+1029 silly addNameRange     '1.0.8',
+1029 silly addNameRange     '1.0.9',
+1029 silly addNameRange     '1.0.10',
+1029 silly addNameRange     '2.0.0',
+1029 silly addNameRange     '2.1.0',
+1029 silly addNameRange     '2.1.1',
+1029 silly addNameRange     '2.1.2',
+1029 silly addNameRange     '2.2.0',
+1029 silly addNameRange     '2.2.1',
+1029 silly addNameRange     '3.0.0',
+1029 silly addNameRange     '3.0.1' ] ]
+1030 verbose addNamed nopt@2.2.1
+1031 silly addNamed semver.valid 2.2.1
+1032 silly addNamed semver.validRange 2.2.1
+1033 silly cache afterAdd semver@1.1.4
+1034 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\semver\1.1.4\package\package.json not in flight; writing
+1035 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\semver\1.1.4\package\package.json written
+1036 silly cache afterAdd inherits@1.0.0
+1037 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\inherits\1.0.0\package\package.json not in flight; writing
+1038 silly cache afterAdd nopt@2.2.1
+1039 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\nopt\2.2.1\package\package.json not in flight; writing
+1040 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\inherits\1.0.0\package\package.json written
+1041 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\nopt\2.2.1\package\package.json written
+1042 silly cache afterAdd once@1.1.1
+1043 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\once\1.1.1\package\package.json not in flight; writing
+1044 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\once\1.1.1\package\package.json written
+1045 silly cache afterAdd ini@1.1.0
+1046 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\ini\1.1.0\package\package.json not in flight; writing
+1047 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\ini\1.1.0\package\package.json written
+1048 silly cache afterAdd osenv@0.0.3
+1049 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\osenv\0.0.3\package\package.json not in flight; writing
+1050 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\osenv\0.0.3\package\package.json written
+1051 http 304 https://registry.npmjs.org/config-chain
+1052 silly get cb [ 304,
+1052 silly get   { date: 'Thu, 07 May 2015 16:00:11 GMT',
+1052 silly get     via: '1.1 varnish',
+1052 silly get     'last-modified': 'Thu, 07 May 2015 16:00:12 GMT',
+1052 silly get     'cache-control': 'max-age=60',
+1052 silly get     etag: '"2CZSVTRGUQZXXZJI8XV5S3CGJ"',
+1052 silly get     age: '0',
+1052 silly get     connection: 'keep-alive',
+1052 silly get     'x-served-by': 'cache-nrt6135-NRT',
+1052 silly get     'x-cache': 'HIT',
+1052 silly get     'x-cache-hits': '1',
+1052 silly get     'x-timer': 'S1431014411.852797,VS0,VE178',
+1052 silly get     vary: 'Accept' } ]
+1053 verbose etag https://registry.npmjs.org/config-chain from cache
+1054 verbose get saving config-chain to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\config-chain\.cache.json
+1055 silly addNameRange number 2 { name: 'config-chain', range: '>=1.1.1 <1.2.0', hasData: true }
+1056 silly addNameRange versions [ 'config-chain',
+1056 silly addNameRange   [ '0.1.0',
+1056 silly addNameRange     '0.1.1',
+1056 silly addNameRange     '0.2.0',
+1056 silly addNameRange     '0.3.0',
+1056 silly addNameRange     '0.3.1',
+1056 silly addNameRange     '0.3.2',
+1056 silly addNameRange     '0.3.3',
+1056 silly addNameRange     '1.0.0',
+1056 silly addNameRange     '1.0.1',
+1056 silly addNameRange     '1.1.0',
+1056 silly addNameRange     '1.1.1',
+1056 silly addNameRange     '1.1.2',
+1056 silly addNameRange     '1.1.3',
+1056 silly addNameRange     '1.1.4',
+1056 silly addNameRange     '1.1.5',
+1056 silly addNameRange     '1.1.6',
+1056 silly addNameRange     '0.3.4',
+1056 silly addNameRange     '1.1.7',
+1056 silly addNameRange     '1.1.8' ] ]
+1057 verbose addNamed config-chain@1.1.8
+1058 silly addNamed semver.valid 1.1.8
+1059 silly addNamed semver.validRange 1.1.8
+1060 silly cache afterAdd config-chain@1.1.8
+1061 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\config-chain\1.1.8\package\package.json not in flight; writing
+1062 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\config-chain\1.1.8\package\package.json written
+1063 silly install resolved [ { name: 'semver',
+1063 silly install resolved     version: '1.1.4',
+1063 silly install resolved     description: 'The semantic version parser used by npm.',
+1063 silly install resolved     main: 'semver.js',
+1063 silly install resolved     scripts: { test: 'tap test.js' },
+1063 silly install resolved     devDependencies: { tap: '0.x >=0.0.4' },
+1063 silly install resolved     license:
+1063 silly install resolved      { type: 'MIT',
+1063 silly install resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+1063 silly install resolved     bin: { semver: './bin/semver' },
+1063 silly install resolved     _id: 'semver@1.1.4',
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '2e5a4e72bab03472cc97f72753b4508912ef5540',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/semver/-/semver-1.1.4.tgz' },
+1063 silly install resolved     _from: 'semver@>=1.1.0 <1.2.0',
+1063 silly install resolved     _npmVersion: '1.2.12',
+1063 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1063 silly install resolved     maintainers: [ [Object] ],
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _shasum: '2e5a4e72bab03472cc97f72753b4508912ef5540',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/semver/-/semver-1.1.4.tgz',
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-semver/issues' },
+1063 silly install resolved     readme: 'ERROR: No README data found!',
+1063 silly install resolved     homepage: 'https://github.com/isaacs/node-semver' },
+1063 silly install resolved   { name: 'inherits',
+1063 silly install resolved     description: 'A tiny simple way to do classic inheritance in js',
+1063 silly install resolved     version: '1.0.0',
+1063 silly install resolved     keywords: [ 'inheritance', 'class', 'klass', 'oop', 'object-oriented' ],
+1063 silly install resolved     main: './inherits.js',
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+1063 silly install resolved     author:
+1063 silly install resolved      { name: 'Isaac Z. Schlueter',
+1063 silly install resolved        email: 'i@izs.me',
+1063 silly install resolved        url: 'http://blog.izs.me/' },
+1063 silly install resolved     dependencies: {},
+1063 silly install resolved     devDependencies: {},
+1063 silly install resolved     _id: 'inherits@1.0.0',
+1063 silly install resolved     engines: { node: '*' },
+1063 silly install resolved     _engineSupported: true,
+1063 silly install resolved     _npmVersion: '1.0.1rc6',
+1063 silly install resolved     _nodeVersion: 'v0.5.0-pre',
+1063 silly install resolved     _defaultsLoaded: true,
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '38e1975285bf1f7ba9c84da102bb12771322ac48',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz' },
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _shasum: '38e1975285bf1f7ba9c84da102bb12771322ac48',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz',
+1063 silly install resolved     _from: 'inherits@>=1.0.0 <1.1.0',
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+1063 silly install resolved     readme: 'ERROR: No README data found!',
+1063 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+1063 silly install resolved   { name: 'nopt',
+1063 silly install resolved     version: '2.2.1',
+1063 silly install resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+1063 silly install resolved     author:
+1063 silly install resolved      { name: 'Isaac Z. Schlueter',
+1063 silly install resolved        email: 'i@izs.me',
+1063 silly install resolved        url: 'http://blog.izs.me/' },
+1063 silly install resolved     main: 'lib/nopt.js',
+1063 silly install resolved     scripts: { test: 'tap test/*.js' },
+1063 silly install resolved     repository: { type: 'git', url: 'http://github.com/isaacs/nopt' },
+1063 silly install resolved     bin: { nopt: './bin/nopt.js' },
+1063 silly install resolved     license:
+1063 silly install resolved      { type: 'MIT',
+1063 silly install resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+1063 silly install resolved     dependencies: { abbrev: '1' },
+1063 silly install resolved     devDependencies: { tap: '~0.4.8' },
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/nopt/issues' },
+1063 silly install resolved     homepage: 'https://github.com/isaacs/nopt',
+1063 silly install resolved     _id: 'nopt@2.2.1',
+1063 silly install resolved     _shasum: '2aa09b7d1768487b3b89a9c5aa52335bff0baea7',
+1063 silly install resolved     _from: 'nopt@>=2.0.0 <3.0.0',
+1063 silly install resolved     _npmVersion: '1.4.7',
+1063 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1063 silly install resolved     maintainers: [ [Object] ],
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '2aa09b7d1768487b3b89a9c5aa52335bff0baea7',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/nopt/-/nopt-2.2.1.tgz' },
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/nopt/-/nopt-2.2.1.tgz',
+1063 silly install resolved     readme: 'ERROR: No README data found!' },
+1063 silly install resolved   { name: 'once',
+1063 silly install resolved     version: '1.1.1',
+1063 silly install resolved     description: 'Run a function exactly one time',
+1063 silly install resolved     main: 'once.js',
+1063 silly install resolved     directories: { test: 'test' },
+1063 silly install resolved     dependencies: {},
+1063 silly install resolved     devDependencies: { tap: '~0.3.0' },
+1063 silly install resolved     scripts: { test: 'tap test/*.js' },
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/once' },
+1063 silly install resolved     keywords: [ 'once', 'function', 'one', 'single' ],
+1063 silly install resolved     author:
+1063 silly install resolved      { name: 'Isaac Z. Schlueter',
+1063 silly install resolved        email: 'i@izs.me',
+1063 silly install resolved        url: 'http://blog.izs.me/' },
+1063 silly install resolved     license: 'BSD',
+1063 silly install resolved     _id: 'once@1.1.1',
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '9db574933ccb08c3a7614d154032c09ea6f339e7',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/once/-/once-1.1.1.tgz' },
+1063 silly install resolved     _npmVersion: '1.1.48',
+1063 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1063 silly install resolved     maintainers: [ [Object] ],
+1063 silly install resolved     _shasum: '9db574933ccb08c3a7614d154032c09ea6f339e7',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/once/-/once-1.1.1.tgz',
+1063 silly install resolved     _from: 'once@>=1.1.1 <1.2.0',
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/once/issues' },
+1063 silly install resolved     readme: 'ERROR: No README data found!',
+1063 silly install resolved     homepage: 'https://github.com/isaacs/once' },
+1063 silly install resolved   { author:
+1063 silly install resolved      { name: 'Isaac Z. Schlueter',
+1063 silly install resolved        email: 'i@izs.me',
+1063 silly install resolved        url: 'http://blog.izs.me/' },
+1063 silly install resolved     name: 'ini',
+1063 silly install resolved     description: 'An ini encoder/decoder for node',
+1063 silly install resolved     version: '1.1.0',
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/ini.git' },
+1063 silly install resolved     main: 'ini.js',
+1063 silly install resolved     scripts: { test: 'tap test/*.js' },
+1063 silly install resolved     engines: { node: '*' },
+1063 silly install resolved     dependencies: {},
+1063 silly install resolved     devDependencies: { tap: '~0.0.9' },
+1063 silly install resolved     _id: 'ini@1.1.0',
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '4e808c2ce144c6c1788918e034d6797bc6cf6281',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/ini/-/ini-1.1.0.tgz' },
+1063 silly install resolved     _from: 'ini@>=1.1.0 <1.2.0',
+1063 silly install resolved     _npmVersion: '1.2.2',
+1063 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1063 silly install resolved     maintainers: [ [Object] ],
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _shasum: '4e808c2ce144c6c1788918e034d6797bc6cf6281',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/ini/-/ini-1.1.0.tgz',
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/ini/issues' },
+1063 silly install resolved     readme: 'ERROR: No README data found!',
+1063 silly install resolved     homepage: 'https://github.com/isaacs/ini' },
+1063 silly install resolved   { name: 'osenv',
+1063 silly install resolved     version: '0.0.3',
+1063 silly install resolved     main: 'osenv.js',
+1063 silly install resolved     directories: { test: 'test' },
+1063 silly install resolved     dependencies: {},
+1063 silly install resolved     devDependencies: { tap: '~0.2.5' },
+1063 silly install resolved     scripts: { test: 'tap test/*.js' },
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/osenv' },
+1063 silly install resolved     keywords:
+1063 silly install resolved      [ 'environment',
+1063 silly install resolved        'variable',
+1063 silly install resolved        'home',
+1063 silly install resolved        'tmpdir',
+1063 silly install resolved        'path',
+1063 silly install resolved        'prompt',
+1063 silly install resolved        'ps1' ],
+1063 silly install resolved     author:
+1063 silly install resolved      { name: 'Isaac Z. Schlueter',
+1063 silly install resolved        email: 'i@izs.me',
+1063 silly install resolved        url: 'http://blog.izs.me/' },
+1063 silly install resolved     license: 'BSD',
+1063 silly install resolved     description: 'Look up environment settings specific to different operating systems',
+1063 silly install resolved     _id: 'osenv@0.0.3',
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: 'cd6ad8ddb290915ad9e22765576025d411f29cb6',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz' },
+1063 silly install resolved     maintainers: [ [Object] ],
+1063 silly install resolved     _shasum: 'cd6ad8ddb290915ad9e22765576025d411f29cb6',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz',
+1063 silly install resolved     _from: 'osenv@0.0.3',
+1063 silly install resolved     bugs: { url: 'https://github.com/isaacs/osenv/issues' },
+1063 silly install resolved     readme: 'ERROR: No README data found!',
+1063 silly install resolved     homepage: 'https://github.com/isaacs/osenv' },
+1063 silly install resolved   { name: 'config-chain',
+1063 silly install resolved     version: '1.1.8',
+1063 silly install resolved     description: 'HANDLE CONFIGURATION ONCE AND FOR ALL',
+1063 silly install resolved     homepage: 'http://github.com/dominictarr/config-chain',
+1063 silly install resolved     repository:
+1063 silly install resolved      { type: 'git',
+1063 silly install resolved        url: 'https://github.com/dominictarr/config-chain.git' },
+1063 silly install resolved     dependencies: { 'proto-list': '~1.2.1', ini: '1' },
+1063 silly install resolved     devDependencies: { tap: '0.3.0' },
+1063 silly install resolved     author:
+1063 silly install resolved      { name: 'Dominic Tarr',
+1063 silly install resolved        email: 'dominic.tarr@gmail.com',
+1063 silly install resolved        url: 'http://dominictarr.com' },
+1063 silly install resolved     scripts: { test: 'tap test/' },
+1063 silly install resolved     readme: '#config-chain\n\nUSE THIS MODULE TO LOAD ALL YOUR CONFIGURATIONS\n\n``` js\n\n  //npm install config-chain\n\n  var cc = require(\'config-chain\')\n    , opts = require(\'optimist\').argv //ALWAYS USE OPTIMIST FOR COMMAND LINE OPTIONS.\n    , env = opts.env || process.env.YOUR_APP_ENV || \'dev\' //SET YOUR ENV LIKE THIS.\n\n  // EACH ARG TO CONFIGURATOR IS LOADED INTO CONFIGURATION CHAIN\n  // EARLIER ITEMS OVERIDE LATER ITEMS\n  // PUTS COMMAND LINE OPTS FIRST, AND DEFAULTS LAST!\n\n  //strings are interpereted as filenames.\n  //will be loaded synchronously\n\n  var conf =\n  cc(\n    //OVERRIDE SETTINGS WITH COMMAND LINE OPTS\n    opts,\n\n    //ENV VARS IF PREFIXED WITH \'myApp_\'\n\n    cc.env(\'myApp_\'), //myApp_foo = \'like this\'\n\n    //FILE NAMED BY ENV\n    path.join(__dirname,  \'config.\' + env + \'.json\'),\n\n    //IF `env` is PRODUCTION\n    env === \'prod\'\n      ? path.join(__dirname, \'special.json\') //load a special file\n      : null //NULL IS IGNORED!\n\n    //SUBDIR FOR ENV CONFIG\n    path.join(__dirname,  \'config\', env, \'config.json\'),\n\n    //SEARCH PARENT DIRECTORIES FROM CURRENT DIR FOR FILE\n    cc.find(\'config.json\'),\n\n    //PUT DEFAULTS LAST\n    {\n      host: \'localhost\'\n      port: 8000\n    })\n\n  var host = conf.get(\'host\')\n\n  // or\n\n  var host = conf.store.host\n\n```\n\nFINALLY, EASY FLEXIBLE CONFIGURATIONS!\n\n##see also: [proto-list](https://github.com/isaacs/proto-list/)\n\nWHATS THAT YOU SAY?\n\nYOU WANT A "CLASS" SO THAT YOU CAN DO CRAYCRAY JQUERY CRAPS?\n\nEXTEND WITH YOUR OWN FUNCTIONALTY!?\n\n## CONFIGCHAIN LIVES TO SERVE ONLY YOU!\n\n```javascript\nvar cc = require(\'config-chain\')\n\n// all the stuff you did before\nvar config = cc({\n      some: \'object\'\n    },\n    cc.find(\'config.json\'),\n    cc.env(\'myApp_\')\n  )\n  // CONFIGS AS A SERVICE, aka "CaaS", aka EVERY DEVOPS DREAM OMG!\n  .addUrl(\'http://configurator:1234/my-configs\')\n  // ASYNC FTW!\n  .addFile(\'/path/to/file.json\')\n\n  // OBJECTS ARE OK TOO, they\'re SYNC but they still ORDER RIGHT\n  // BECAUSE PROMISES ARE USED BUT NO, NOT *THOSE* PROMISES, JUST\n  // ACTUAL PROMISES LIKE YOU MAKE TO YOUR MOM, KEPT OUT OF LOVE\n  .add({ another: \'object\' })\n\n  // DIE A THOUSAND DEATHS IF THIS EVER HAPPENS!!\n  .on(\'error\', function (er) {\n    // IF ONLY THERE WAS SOMETHIGN HARDER THAN THROW\n    // MY SORROW COULD BE ADEQUATELY EXPRESSED.  /o\\\n    throw er\n  })\n\n  // THROW A PARTY IN YOUR FACE WHEN ITS ALL LOADED!!\n  .on(\'load\', function (config) {\n    console.awesome(\'HOLY SHIT!\')\n  })\n```\n\n# BORING API DOCS\n\n## cc(...args)\n\nMAKE A CHAIN AND ADD ALL THE ARGS.\n\nIf the arg is a STRING, then it shall be a JSON FILENAME.\n\nSYNC I/O!\n\nRETURN THE CHAIN!\n\n## cc.json(...args)\n\nJoin the args INTO A JSON FILENAME!\n\nSYNC I/O!\n\n## cc.find(relativePath)\n\nSEEK the RELATIVE PATH by climbing the TREE OF DIRECTORIES.\n\nRETURN THE FOUND PATH!\n\nSYNC I/O!\n\n## cc.parse(content, file, type)\n\nParse the content string, and guess the type from either the\nspecified type or the filename.\n\nRETURN THE RESULTING OBJECT!\n\nNO I/O!\n\n## cc.env(prefix, env=process.env)\n\nGet all the keys on the provided env object (or process.env) which are\nprefixed by the specified prefix, and put the values on a new object.\n\nRETURN THE RESULTING OBJECT!\n\nNO I/O!\n\n## cc.ConfigChain()\n\nThe ConfigChain class for CRAY CRAY JQUERY STYLE METHOD CHAINING!\n\nOne of these is returned by the main exported function, as well.\n\nIt inherits (prototypically) from\n[ProtoList](https://github.com/isaacs/proto-list/), and also inherits\n(parasitically) from\n[EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter)\n\nIt has all the methods from both, and except where noted, they are\nunchanged.\n\n### LET IT BE KNOWN THAT chain IS AN INSTANCE OF ConfigChain.\n\n## chain.sources\n\nA list of all the places where it got stuff.  The keys are the names\npassed to addFile or addUrl etc, and the value is an object with some\ninfo about the data source.\n\n## chain.addFile(filename, type, [name=filename])\n\nFilename is the name of the file.  Name is an arbitrary string to be\nused later if you desire.  Type is either \'ini\' or \'json\', and will\ntry to guess intelligently if omitted.\n\nLoaded files can be saved later.\n\n## chain.addUrl(url, type, [name=url])\n\nSame as the filename thing, but with a url.\n\nCan\'t be saved later.\n\n## chain.addEnv(prefix, env, [name=\'env\'])\n\nAdd all the keys from the env object that start with the prefix.\n\n## chain.addString(data, file, type, [name])\n\nParse the string and add it to the set.  (Mainly used internally.)\n\n## chain.add(object, [name])\n\nAdd the object to the set.\n\n## chain.root {Object}\n\nThe root from which all the other config objects in the set descend\nprototypically.\n\nPut your defaults here.\n\n## chain.set(key, value, name)\n\nSet the key to the value on the named config object.  If name is\nunset, then set it on the first config object in the set.  (That is,\nthe one with the highest priority, which was added first.)\n\n## chain.get(key, [name])\n\nGet the key from the named config object explicitly, or from the\nresolved configs if not specified.\n\n## chain.save(name, type)\n\nWrite the named config object back to its origin.\n\nCurrently only supported for env and file config types.\n\nFor files, encode the data according to the type.\n\n## chain.on(\'save\', function () {})\n\nWhen one or more files are saved, emits `save` event when they\'re all\nsaved.\n\n## chain.on(\'load\', function (chain) {})\n\nWhen the config chain has loaded all the specified files and urls and\nsuch, the \'load\' event fires.\n',
+1063 silly install resolved     readmeFilename: 'readme.markdown',
+1063 silly install resolved     bugs: { url: 'https://github.com/dominictarr/config-chain/issues' },
+1063 silly install resolved     _id: 'config-chain@1.1.8',
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '0943d0b7227213a20d4eaff4434f4a1c0a052cad',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/config-chain/-/config-chain-1.1.8.tgz' },
+1063 silly install resolved     _from: 'config-chain@>=1.1.1 <1.2.0',
+1063 silly install resolved     _npmVersion: '1.3.6',
+1063 silly install resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+1063 silly install resolved     maintainers: [ [Object], [Object] ],
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _shasum: '0943d0b7227213a20d4eaff4434f4a1c0a052cad',
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/config-chain/-/config-chain-1.1.8.tgz' } ]
+1064 info install semver@1.1.4 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1065 info install inherits@1.0.0 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1066 info install nopt@2.2.1 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1067 info install once@1.1.1 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1068 info install ini@1.1.0 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1069 info install osenv@0.0.3 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1070 info install config-chain@1.1.8 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1071 info installOne semver@1.1.4
+1072 verbose installOne of semver to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1073 info installOne inherits@1.0.0
+1074 verbose installOne of inherits to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1075 info installOne nopt@2.2.1
+1076 verbose installOne of nopt to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1077 info installOne once@1.1.1
+1078 verbose installOne of once to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1079 info installOne ini@1.1.0
+1080 verbose installOne of ini to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1081 info installOne osenv@0.0.3
+1082 verbose installOne of osenv to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1083 info installOne config-chain@1.1.8
+1084 verbose installOne of config-chain to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf not in flight; installing
+1085 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\semver-a862c6019c49e988.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1086 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\inherits-39e5889a9efa9d0b.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1087 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\nopt-4b2953015286815a.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1088 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\once-b30b8f682ffa3909.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1089 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\ini-c28ac1bdc56a5173.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1090 silly install write writing semver 1.1.4 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1091 silly cache addNamed cb semver@1.1.4
+1092 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1093 silly install write writing inherits 1.0.0 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1094 silly cache addNamed cb inherits@1.0.0
+1095 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1096 silly install write writing nopt 2.2.1 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1097 silly cache addNamed cb nopt@2.2.1
+1098 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1099 silly install write writing once 1.1.1 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1100 silly cache addNamed cb once@1.1.1
+1101 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1102 silly install write writing ini 1.1.0 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1103 silly cache addNamed cb ini@1.1.0
+1104 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1105 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\osenv-a4d0b441c5e712ad.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1106 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\config-chain-5e472b1ee8f13dc0.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1107 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1108 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1109 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1110 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1111 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1112 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1113 silly install write writing osenv 0.0.3 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1114 silly cache addNamed cb osenv@0.0.3
+1115 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1116 silly install write writing config-chain 1.1.8 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1117 silly cache addNamed cb config-chain@1.1.8
+1118 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1119 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1120 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1121 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1122 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1123 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz
+1124 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1125 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver is being purged
+1126 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1127 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\inherits\1.0.0\package.tgz
+1128 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1129 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits is being purged
+1130 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1131 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz
+1132 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1133 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt is being purged
+1134 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1135 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\once\1.1.1\package.tgz
+1136 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1137 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once is being purged
+1138 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1139 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz
+1140 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1141 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini is being purged
+1142 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1143 silly gunzTarPerm modes [ '777', '666' ]
+1144 silly gunzTarPerm modes [ '777', '666' ]
+1145 silly gunzTarPerm modes [ '777', '666' ]
+1146 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1147 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1148 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1149 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1150 silly gunzTarPerm modes [ '777', '666' ]
+1151 silly gunzTarPerm modes [ '777', '666' ]
+1152 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz
+1153 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1154 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv is being purged
+1155 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1156 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\config-chain\1.1.8\package.tgz
+1157 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1158 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain is being purged
+1159 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1160 silly gunzTarPerm modes [ '777', '666' ]
+1161 silly gunzTarPerm modes [ '777', '666' ]
+1162 silly gunzTarPerm extractEntry package.json
+1163 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1164 silly gunzTarPerm extractEntry package.json
+1165 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1166 silly gunzTarPerm extractEntry package.json
+1167 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1168 silly gunzTarPerm extractEntry package.json
+1169 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1170 silly gunzTarPerm extractEntry README.md
+1171 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1172 silly gunzTarPerm extractEntry LICENSE
+1173 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1174 silly gunzTarPerm extractEntry .npmignore
+1175 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+1176 silly gunzTarPerm extractEntry README.md
+1177 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1178 silly gunzTarPerm extractEntry README.md
+1179 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1180 silly gunzTarPerm extractEntry LICENSE
+1181 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1182 silly gunzTarPerm extractEntry .npmignore
+1183 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+1184 silly gunzTarPerm extractEntry LICENCE
+1185 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+1186 silly gunzTarPerm extractEntry package.json
+1187 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1188 silly gunzTarPerm extractEntry semver.js
+1189 silly gunzTarPerm modified mode [ 'semver.js', 420, 438 ]
+1190 silly gunzTarPerm extractEntry test.js
+1191 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1192 silly gunzTarPerm extractEntry bin/semver
+1193 silly gunzTarPerm modified mode [ 'bin/semver', 493, 511 ]
+1194 silly gunzTarPerm extractEntry README.md
+1195 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1196 silly gunzTarPerm extractEntry LICENSE
+1197 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1198 silly gunzTarPerm extractEntry LICENSE
+1199 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1200 silly gunzTarPerm extractEntry bin/nopt.js
+1201 silly gunzTarPerm modified mode [ 'bin/nopt.js', 493, 511 ]
+1202 silly gunzTarPerm extractEntry package.json
+1203 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1204 silly gunzTarPerm extractEntry ini.js
+1205 silly gunzTarPerm modified mode [ 'ini.js', 420, 438 ]
+1206 silly gunzTarPerm extractEntry test/bar.js
+1207 silly gunzTarPerm modified mode [ 'test/bar.js', 420, 438 ]
+1208 silly gunzTarPerm extractEntry index.js
+1209 silly gunzTarPerm modified mode [ 'index.js', 493, 511 ]
+1210 silly gunzTarPerm extractEntry readme.markdown
+1211 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1212 silly gunzTarPerm extractEntry README.md
+1213 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1214 silly gunzTarPerm extractEntry LICENSE
+1215 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1216 silly gunzTarPerm extractEntry inherits.js
+1217 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+1218 silly gunzTarPerm extractEntry examples/my-program.js
+1219 silly gunzTarPerm modified mode [ 'examples/my-program.js', 493, 511 ]
+1220 silly gunzTarPerm extractEntry lib/nopt.js
+1221 silly gunzTarPerm modified mode [ 'lib/nopt.js', 420, 438 ]
+1222 silly gunzTarPerm extractEntry test/basic.js
+1223 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 438 ]
+1224 silly gunzTarPerm extractEntry once.js
+1225 silly gunzTarPerm modified mode [ 'once.js', 420, 438 ]
+1226 silly gunzTarPerm extractEntry test/once.js
+1227 silly gunzTarPerm modified mode [ 'test/once.js', 420, 438 ]
+1228 silly gunzTarPerm extractEntry test/broken.js
+1229 silly gunzTarPerm modified mode [ 'test/broken.js', 420, 438 ]
+1230 silly gunzTarPerm extractEntry package.json
+1231 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1232 silly gunzTarPerm extractEntry README.md
+1233 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1234 silly gunzTarPerm extractEntry test/foo.js
+1235 silly gunzTarPerm modified mode [ 'test/foo.js', 420, 438 ]
+1236 silly gunzTarPerm extractEntry test/fixtures/foo.ini
+1237 silly gunzTarPerm modified mode [ 'test/fixtures/foo.ini', 420, 438 ]
+1238 silly gunzTarPerm extractEntry osenv.js
+1239 silly gunzTarPerm modified mode [ 'osenv.js', 420, 438 ]
+1240 silly gunzTarPerm extractEntry test/unix.js
+1241 silly gunzTarPerm modified mode [ 'test/unix.js', 420, 438 ]
+1242 silly gunzTarPerm extractEntry test/chain-class.js
+1243 silly gunzTarPerm modified mode [ 'test/chain-class.js', 420, 438 ]
+1244 silly gunzTarPerm extractEntry test/env.js
+1245 silly gunzTarPerm modified mode [ 'test/env.js', 420, 438 ]
+1246 silly gunzTarPerm extractEntry test/windows.js
+1247 silly gunzTarPerm modified mode [ 'test/windows.js', 420, 438 ]
+1248 silly gunzTarPerm extractEntry test/find-file.js
+1249 silly gunzTarPerm modified mode [ 'test/find-file.js', 420, 438 ]
+1250 silly gunzTarPerm extractEntry test/get.js
+1251 silly gunzTarPerm modified mode [ 'test/get.js', 420, 438 ]
+1252 info preinstall inherits@1.0.0
+1253 silly install resolved []
+1254 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1255 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1256 verbose linkStuff [ true,
+1256 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1256 verbose linkStuff   false,
+1256 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1257 info linkStuff inherits@1.0.0
+1258 verbose linkBins inherits@1.0.0
+1259 verbose linkMans inherits@1.0.0
+1260 verbose rebuildBundles inherits@1.0.0
+1261 info preinstall once@1.1.1
+1262 info install inherits@1.0.0
+1263 info postinstall inherits@1.0.0
+1264 silly install resolved []
+1265 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1266 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1267 verbose linkStuff [ true,
+1267 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1267 verbose linkStuff   false,
+1267 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1268 info linkStuff once@1.1.1
+1269 silly gunzTarPerm extractEntry test/ignore-unfound-file.js
+1270 silly gunzTarPerm modified mode [ 'test/ignore-unfound-file.js', 420, 438 ]
+1271 silly gunzTarPerm extractEntry test/ini.js
+1272 silly gunzTarPerm modified mode [ 'test/ini.js', 420, 438 ]
+1273 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\inherits-39e5889a9efa9d0b.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1274 verbose linkBins once@1.1.1
+1275 verbose linkMans once@1.1.1
+1276 verbose rebuildBundles once@1.1.1
+1277 info install once@1.1.1
+1278 info postinstall once@1.1.1
+1279 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\once-b30b8f682ffa3909.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1280 silly gunzTarPerm extractEntry test/save.js
+1281 silly gunzTarPerm modified mode [ 'test/save.js', 420, 438 ]
+1282 silly gunzTarPerm extractEntry test/broken.json
+1283 silly gunzTarPerm modified mode [ 'test/broken.json', 420, 438 ]
+1284 info preinstall ini@1.1.0
+1285 info preinstall osenv@0.0.3
+1286 silly install resolved []
+1287 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1288 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1289 verbose linkStuff [ true,
+1289 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1289 verbose linkStuff   false,
+1289 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1290 info linkStuff ini@1.1.0
+1291 verbose linkBins ini@1.1.0
+1292 verbose linkMans ini@1.1.0
+1293 verbose rebuildBundles ini@1.1.0
+1294 silly install resolved []
+1295 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1296 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1297 verbose linkStuff [ true,
+1297 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1297 verbose linkStuff   false,
+1297 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1298 info linkStuff osenv@0.0.3
+1299 info install ini@1.1.0
+1300 verbose linkBins osenv@0.0.3
+1301 verbose linkMans osenv@0.0.3
+1302 verbose rebuildBundles osenv@0.0.3
+1303 info postinstall ini@1.1.0
+1304 info install osenv@0.0.3
+1305 info postinstall osenv@0.0.3
+1306 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\ini-c28ac1bdc56a5173.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1307 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\osenv-a4d0b441c5e712ad.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1308 info preinstall semver@1.1.4
+1309 silly install resolved []
+1310 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1311 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1312 verbose linkStuff [ true,
+1312 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1312 verbose linkStuff   false,
+1312 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1313 info linkStuff semver@1.1.4
+1314 verbose linkBins semver@1.1.4
+1315 verbose link bins [ { semver: './bin/semver' },
+1315 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\.bin',
+1315 verbose link bins   false ]
+1316 verbose linkMans semver@1.1.4
+1317 verbose rebuildBundles semver@1.1.4
+1318 info preinstall nopt@2.2.1
+1319 info install semver@1.1.4
+1320 silly prepareForInstallMany adding abbrev@1 from nopt dependencies
+1321 info postinstall semver@1.1.4
+1322 silly cache add args [ 'abbrev@1', null ]
+1323 verbose cache add spec abbrev@1
+1324 silly cache add parsed spec { raw: 'abbrev@1',
+1324 silly cache add   scope: null,
+1324 silly cache add   name: 'abbrev',
+1324 silly cache add   rawSpec: '1',
+1324 silly cache add   spec: '>=1.0.0 <2.0.0',
+1324 silly cache add   type: 'range' }
+1325 verbose addNamed abbrev@>=1.0.0 <2.0.0
+1326 silly addNamed semver.valid null
+1327 silly addNamed semver.validRange >=1.0.0 <2.0.0
+1328 silly addNameRange { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: false }
+1329 silly mapToRegistry name abbrev
+1330 silly mapToRegistry using default registry
+1331 silly mapToRegistry registry https://registry.npmjs.org/
+1332 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+1333 verbose addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+1334 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\semver-a862c6019c49e988.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1335 info preinstall config-chain@1.1.8
+1336 silly prepareForInstallMany adding proto-list@~1.2.1 from config-chain dependencies
+1337 verbose request uri https://registry.npmjs.org/abbrev
+1338 verbose request no auth needed
+1339 info attempt registry request try #1 at 00:00:11
+1340 verbose etag "AIK2XDX1GJIIYUUY93UDLGJV0"
+1341 http request GET https://registry.npmjs.org/abbrev
+1342 silly cache add args [ 'proto-list@~1.2.1', null ]
+1343 verbose cache add spec proto-list@~1.2.1
+1344 silly cache add parsed spec { raw: 'proto-list@~1.2.1',
+1344 silly cache add   scope: null,
+1344 silly cache add   name: 'proto-list',
+1344 silly cache add   rawSpec: '~1.2.1',
+1344 silly cache add   spec: '>=1.2.1 <1.3.0',
+1344 silly cache add   type: 'range' }
+1345 verbose addNamed proto-list@>=1.2.1 <1.3.0
+1346 silly addNamed semver.valid null
+1347 silly addNamed semver.validRange >=1.2.1 <1.3.0
+1348 silly addNameRange { name: 'proto-list', range: '>=1.2.1 <1.3.0', hasData: false }
+1349 silly mapToRegistry name proto-list
+1350 silly mapToRegistry using default registry
+1351 silly mapToRegistry registry https://registry.npmjs.org/
+1352 silly mapToRegistry uri https://registry.npmjs.org/proto-list
+1353 verbose addNameRange registry:https://registry.npmjs.org/proto-list not in flight; fetching
+1354 verbose request uri https://registry.npmjs.org/proto-list
+1355 verbose request no auth needed
+1356 info attempt registry request try #1 at 00:00:11
+1357 verbose etag "CQSZWOKTNTW7BEC93CLTD12RB"
+1358 http request GET https://registry.npmjs.org/proto-list
+1359 http 304 https://registry.npmjs.org/abbrev
+1360 silly get cb [ 304,
+1360 silly get   { date: 'Thu, 07 May 2015 16:00:12 GMT',
+1360 silly get     via: '1.1 varnish',
+1360 silly get     'cache-control': 'max-age=60',
+1360 silly get     etag: '"AIK2XDX1GJIIYUUY93UDLGJV0"',
+1360 silly get     age: '1',
+1360 silly get     connection: 'keep-alive',
+1360 silly get     'x-served-by': 'cache-nrt6129-NRT',
+1360 silly get     'x-cache': 'HIT',
+1360 silly get     'x-cache-hits': '1',
+1360 silly get     'x-timer': 'S1431014412.866112,VS0,VE0',
+1360 silly get     vary: 'Accept' } ]
+1361 verbose etag https://registry.npmjs.org/abbrev from cache
+1362 verbose get saving abbrev to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\abbrev\.cache.json
+1363 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: true }
+1364 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+1365 verbose addNamed abbrev@1.0.5
+1366 silly addNamed semver.valid 1.0.5
+1367 silly addNamed semver.validRange 1.0.5
+1368 silly cache afterAdd abbrev@1.0.5
+1369 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\abbrev\1.0.5\package\package.json not in flight; writing
+1370 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\abbrev\1.0.5\package\package.json written
+1371 silly install resolved [ { name: 'abbrev',
+1371 silly install resolved     version: '1.0.5',
+1371 silly install resolved     description: 'Like ruby\'s abbrev module, but in js',
+1371 silly install resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+1371 silly install resolved     main: 'abbrev.js',
+1371 silly install resolved     scripts: { test: 'node test.js' },
+1371 silly install resolved     repository: { type: 'git', url: 'http://github.com/isaacs/abbrev-js' },
+1371 silly install resolved     license:
+1371 silly install resolved      { type: 'MIT',
+1371 silly install resolved        url: 'https://github.com/isaacs/abbrev-js/raw/master/LICENSE' },
+1371 silly install resolved     bugs: { url: 'https://github.com/isaacs/abbrev-js/issues' },
+1371 silly install resolved     homepage: 'https://github.com/isaacs/abbrev-js',
+1371 silly install resolved     _id: 'abbrev@1.0.5',
+1371 silly install resolved     _shasum: '5d8257bd9ebe435e698b2fa431afde4fe7b10b03',
+1371 silly install resolved     _from: 'abbrev@>=1.0.0 <2.0.0',
+1371 silly install resolved     _npmVersion: '1.4.7',
+1371 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1371 silly install resolved     maintainers: [ [Object] ],
+1371 silly install resolved     dist:
+1371 silly install resolved      { shasum: '5d8257bd9ebe435e698b2fa431afde4fe7b10b03',
+1371 silly install resolved        tarball: 'http://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz' },
+1371 silly install resolved     directories: {},
+1371 silly install resolved     _resolved: 'https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz',
+1371 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1372 info install abbrev@1.0.5 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1373 info installOne abbrev@1.0.5
+1374 verbose installOne of abbrev to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt not in flight; installing
+1375 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\abbrev-a57993c06ca2041d.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1376 silly install write writing abbrev 1.0.5 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1377 silly cache addNamed cb abbrev@1.0.5
+1378 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1379 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1380 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1381 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz
+1382 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1383 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev is being purged
+1384 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1385 silly gunzTarPerm modes [ '777', '666' ]
+1386 silly gunzTarPerm extractEntry package.json
+1387 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1388 silly gunzTarPerm extractEntry README.md
+1389 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1390 silly gunzTarPerm extractEntry LICENSE
+1391 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1392 silly gunzTarPerm extractEntry abbrev.js
+1393 silly gunzTarPerm modified mode [ 'abbrev.js', 420, 438 ]
+1394 silly gunzTarPerm extractEntry test.js
+1395 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1396 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1397 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+1398 info preinstall abbrev@1.0.5
+1399 silly install resolved []
+1400 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1401 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1402 verbose linkStuff [ true,
+1402 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1402 verbose linkStuff   false,
+1402 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\nopt\\node_modules' ]
+1403 info linkStuff abbrev@1.0.5
+1404 verbose linkBins abbrev@1.0.5
+1405 verbose linkMans abbrev@1.0.5
+1406 verbose rebuildBundles abbrev@1.0.5
+1407 info install abbrev@1.0.5
+1408 info postinstall abbrev@1.0.5
+1409 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\abbrev-a57993c06ca2041d.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1410 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1411 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1412 verbose linkStuff [ true,
+1412 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1412 verbose linkStuff   false,
+1412 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1413 info linkStuff nopt@2.2.1
+1414 verbose linkBins nopt@2.2.1
+1415 verbose link bins [ { nopt: './bin/nopt.js' },
+1415 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\.bin',
+1415 verbose link bins   false ]
+1416 verbose linkMans nopt@2.2.1
+1417 verbose rebuildBundles nopt@2.2.1
+1418 verbose rebuildBundles [ 'abbrev' ]
+1419 info install nopt@2.2.1
+1420 info postinstall nopt@2.2.1
+1421 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\nopt-4b2953015286815a.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1422 http 304 https://registry.npmjs.org/proto-list
+1423 silly get cb [ 304,
+1423 silly get   { date: 'Thu, 07 May 2015 16:00:12 GMT',
+1423 silly get     via: '1.1 varnish',
+1423 silly get     'cache-control': 'max-age=60',
+1423 silly get     etag: '"CQSZWOKTNTW7BEC93CLTD12RB"',
+1423 silly get     age: '0',
+1423 silly get     connection: 'keep-alive',
+1423 silly get     'x-served-by': 'cache-nrt6129-NRT',
+1423 silly get     'x-cache': 'HIT',
+1423 silly get     'x-cache-hits': '1',
+1423 silly get     'x-timer': 'S1431014412.968732,VS0,VE737',
+1423 silly get     vary: 'Accept' } ]
+1424 verbose etag https://registry.npmjs.org/proto-list from cache
+1425 verbose get saving proto-list to C:\Users\xugang\AppData\Roaming\npm-cache\registry.npmjs.org\proto-list\.cache.json
+1426 silly addNameRange number 2 { name: 'proto-list', range: '>=1.2.1 <1.3.0', hasData: true }
+1427 silly addNameRange versions [ 'proto-list',
+1427 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.2.1', '1.2.2', '1.2.3' ] ]
+1428 verbose addNamed proto-list@1.2.3
+1429 silly addNamed semver.valid 1.2.3
+1430 silly addNamed semver.validRange 1.2.3
+1431 silly cache afterAdd proto-list@1.2.3
+1432 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\proto-list\1.2.3\package\package.json not in flight; writing
+1433 verbose afterAdd C:\Users\xugang\AppData\Roaming\npm-cache\proto-list\1.2.3\package\package.json written
+1434 silly install resolved [ { name: 'proto-list',
+1434 silly install resolved     version: '1.2.3',
+1434 silly install resolved     description: 'A utility for managing a prototype chain',
+1434 silly install resolved     main: './proto-list.js',
+1434 silly install resolved     author:
+1434 silly install resolved      { name: 'Isaac Z. Schlueter',
+1434 silly install resolved        email: 'i@izs.me',
+1434 silly install resolved        url: 'http://blog.izs.me/' },
+1434 silly install resolved     scripts: { test: 'tap test/*.js' },
+1434 silly install resolved     repository: { type: 'git', url: 'https://github.com/isaacs/proto-list' },
+1434 silly install resolved     license:
+1434 silly install resolved      { type: 'MIT',
+1434 silly install resolved        url: 'https://github.com/isaacs/proto-list/blob/master/LICENSE' },
+1434 silly install resolved     devDependencies: { tap: '0' },
+1434 silly install resolved     gitHead: '44d76897176861d176a53ed3f3fc5e05cdee7643',
+1434 silly install resolved     bugs: { url: 'https://github.com/isaacs/proto-list/issues' },
+1434 silly install resolved     homepage: 'https://github.com/isaacs/proto-list',
+1434 silly install resolved     _id: 'proto-list@1.2.3',
+1434 silly install resolved     _shasum: '6235554a1bca1f0d15e3ca12ca7329d5def42bd9',
+1434 silly install resolved     _from: 'proto-list@>=1.2.1 <1.3.0',
+1434 silly install resolved     _npmVersion: '1.4.14',
+1434 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1434 silly install resolved     maintainers: [ [Object] ],
+1434 silly install resolved     dist:
+1434 silly install resolved      { shasum: '6235554a1bca1f0d15e3ca12ca7329d5def42bd9',
+1434 silly install resolved        tarball: 'http://registry.npmjs.org/proto-list/-/proto-list-1.2.3.tgz' },
+1434 silly install resolved     directories: {},
+1434 silly install resolved     _resolved: 'https://registry.npmjs.org/proto-list/-/proto-list-1.2.3.tgz',
+1434 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1435 info install proto-list@1.2.3 into C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1436 info installOne proto-list@1.2.3
+1437 verbose installOne of proto-list to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain not in flight; installing
+1438 verbose lock using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\proto-list-f691e4389359acb6.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1439 silly install write writing proto-list 1.2.3 to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1440 silly cache addNamed cb proto-list@1.2.3
+1441 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1442 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1443 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1444 verbose tar unpack C:\Users\xugang\AppData\Roaming\npm-cache\proto-list\1.2.3\package.tgz
+1445 verbose tar unpacking to C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1446 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list is being purged
+1447 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1448 silly gunzTarPerm modes [ '777', '666' ]
+1449 silly gunzTarPerm extractEntry package.json
+1450 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1451 silly gunzTarPerm extractEntry README.md
+1452 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1453 silly gunzTarPerm extractEntry LICENSE
+1454 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1455 silly gunzTarPerm extractEntry proto-list.js
+1456 silly gunzTarPerm modified mode [ 'proto-list.js', 420, 438 ]
+1457 silly gunzTarPerm extractEntry test/basic.js
+1458 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 438 ]
+1459 info preinstall proto-list@1.2.3
+1460 silly install resolved []
+1461 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1462 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1463 verbose linkStuff [ true,
+1463 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1463 verbose linkStuff   false,
+1463 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\config-chain\\node_modules' ]
+1464 info linkStuff proto-list@1.2.3
+1465 verbose linkBins proto-list@1.2.3
+1466 verbose linkMans proto-list@1.2.3
+1467 verbose rebuildBundles proto-list@1.2.3
+1468 info install proto-list@1.2.3
+1469 info postinstall proto-list@1.2.3
+1470 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\proto-list-f691e4389359acb6.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1471 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1472 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1473 verbose linkStuff [ true,
+1473 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1473 verbose linkStuff   false,
+1473 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1474 info linkStuff config-chain@1.1.8
+1475 verbose linkBins config-chain@1.1.8
+1476 verbose linkMans config-chain@1.1.8
+1477 verbose rebuildBundles config-chain@1.1.8
+1478 verbose rebuildBundles [ 'proto-list' ]
+1479 info install config-chain@1.1.8
+1480 info postinstall config-chain@1.1.8
+1481 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\config-chain-5e472b1ee8f13dc0.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1482 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1483 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1484 verbose linkStuff [ true,
+1484 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1484 verbose linkStuff   false,
+1484 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+1485 info linkStuff npmconf@0.0.24
+1486 verbose linkBins npmconf@0.0.24
+1487 verbose linkMans npmconf@0.0.24
+1488 verbose rebuildBundles npmconf@0.0.24
+1489 verbose rebuildBundles [ '.bin',
+1489 verbose rebuildBundles   'config-chain',
+1489 verbose rebuildBundles   'inherits',
+1489 verbose rebuildBundles   'ini',
+1489 verbose rebuildBundles   'nopt',
+1489 verbose rebuildBundles   'once',
+1489 verbose rebuildBundles   'osenv',
+1489 verbose rebuildBundles   'semver' ]
+1490 info install npmconf@0.0.24
+1491 info postinstall npmconf@0.0.24
+1492 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\npmconf-8b527187dc814d37.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1493 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1494 info build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1495 verbose linkStuff [ true,
+1495 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules',
+1495 verbose linkStuff   false,
+1495 verbose linkStuff   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+1496 info linkStuff phantomjs@1.9.7-5
+1497 verbose linkBins phantomjs@1.9.7-5
+1498 verbose link bins [ { phantomjs: './bin/phantomjs' },
+1498 verbose link bins   'C:\\Users\\xugang\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\.bin',
+1498 verbose link bins   false ]
+1499 verbose linkMans phantomjs@1.9.7-5
+1500 verbose rebuildBundles phantomjs@1.9.7-5
+1501 verbose rebuildBundles [ '.bin',
+1501 verbose rebuildBundles   'adm-zip',
+1501 verbose rebuildBundles   'kew',
+1501 verbose rebuildBundles   'mkdirp',
+1501 verbose rebuildBundles   'ncp',
+1501 verbose rebuildBundles   'npmconf',
+1501 verbose rebuildBundles   'rimraf',
+1501 verbose rebuildBundles   'which' ]
+1502 info install phantomjs@1.9.7-5
+1503 verbose unsafe-perm in lifecycle true
+1504 info phantomjs@1.9.7-5 Failed to exec install script
+1505 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\phantomjs-a1be2f326a4ae992.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1506 verbose about to build C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+1507 verbose unlock done using C:\Users\xugang\AppData\Roaming\npm-cache\_locks\gitbook-pdf-bc520aa5918bf8b3.lock for C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+1508 verbose stack Error: phantomjs@1.9.7-5 install: `node install.js`
+1508 verbose stack Exit status 1
+1508 verbose stack     at EventEmitter.<anonymous> (d:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+1508 verbose stack     at EventEmitter.emit (events.js:110:17)
+1508 verbose stack     at ChildProcess.<anonymous> (d:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+1508 verbose stack     at ChildProcess.emit (events.js:110:17)
+1508 verbose stack     at maybeClose (child_process.js:1015:16)
+1508 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+1509 verbose pkgid phantomjs@1.9.7-5
+1510 verbose cwd D:\git\programmer
+1511 error Windows_NT 6.1.7601
+1512 error argv "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gitbook-pdf" "-g"
+1513 error node v0.12.2
+1514 error npm  v2.7.4
+1515 error code ELIFECYCLE
+1516 error phantomjs@1.9.7-5 install: `node install.js`
+1516 error Exit status 1
+1517 error Failed at the phantomjs@1.9.7-5 install script 'node install.js'.
+1517 error This is most likely a problem with the phantomjs package,
+1517 error not with npm itself.
+1517 error Tell the author that this fails on your system:
+1517 error     node install.js
+1517 error You can get their info via:
+1517 error     npm owner ls phantomjs
+1517 error There is likely additional logging output above.
+1518 verbose exit [ 1, true ]
+1519 verbose unbuild node_modules\gitbook-pdf\node_modules\phantomjs
+1520 info preuninstall phantomjs@1.9.7-5
+1521 info uninstall phantomjs@1.9.7-5
+1522 verbose unbuild rmStuff phantomjs@1.9.7-5 from C:\Users\xugang\AppData\Roaming\npm\node_modules
+1523 verbose unbuild rmStuff in C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules
+1524 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs.cmd is being gently removed
+1525 silly gentlyRm verifying C:\Users\xugang\AppData\Roaming\npm is an npm working directory
+1526 silly gentlyRm containing path C:\Users\xugang\AppData\Roaming\npm is under npm's control, in C:\Users\xugang\AppData\Roaming\npm
+1527 silly gentlyRm deletion target C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs.cmd is under C:\Users\xugang\AppData\Roaming\npm
+1528 verbose gentlyRm vacuuming from C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs.cmd up to C:\Users\xugang\AppData\Roaming\npm
+1529 silly vacuum-fs removing C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs.cmd
+1530 silly vacuum-fs quitting because other entries in C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin
+1531 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs is being gently removed
+1532 silly gentlyRm verifying C:\Users\xugang\AppData\Roaming\npm is an npm working directory
+1533 silly gentlyRm containing path C:\Users\xugang\AppData\Roaming\npm is under npm's control, in C:\Users\xugang\AppData\Roaming\npm
+1534 silly gentlyRm deletion target C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs is under C:\Users\xugang\AppData\Roaming\npm
+1535 verbose gentlyRm vacuuming from C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs up to C:\Users\xugang\AppData\Roaming\npm
+1536 silly vacuum-fs removing C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin\phantomjs
+1537 silly vacuum-fs removing C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin
+1538 silly vacuum-fs quitting because other entries in C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules
+1539 info postuninstall phantomjs@1.9.7-5
+1540 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1541 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1542 silly vacuum-fs purging C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1543 silly vacuum-fs quitting because other entries in C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules
+1544 verbose unbuild node_modules\gitbook-pdf
+1545 info preuninstall gitbook-pdf@0.0.2
+1546 info uninstall gitbook-pdf@0.0.2
+1547 verbose unbuild rmStuff gitbook-pdf@0.0.2 from C:\Users\xugang\AppData\Roaming\npm\node_modules
+1548 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf.cmd is being gently removed
+1549 silly gentlyRm verifying C:\Users\xugang\AppData\Roaming\npm is an npm working directory
+1550 silly gentlyRm containing path C:\Users\xugang\AppData\Roaming\npm is under npm's control, in C:\Users\xugang\AppData\Roaming\npm
+1551 silly gentlyRm deletion target C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf.cmd is under C:\Users\xugang\AppData\Roaming\npm
+1552 verbose gentlyRm vacuuming from C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf.cmd up to C:\Users\xugang\AppData\Roaming\npm
+1553 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf is being gently removed
+1554 silly gentlyRm verifying C:\Users\xugang\AppData\Roaming\npm is an npm working directory
+1555 silly gentlyRm containing path C:\Users\xugang\AppData\Roaming\npm is under npm's control, in C:\Users\xugang\AppData\Roaming\npm
+1556 silly gentlyRm deletion target C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf is under C:\Users\xugang\AppData\Roaming\npm
+1557 verbose gentlyRm vacuuming from C:\Users\xugang\AppData\Roaming\npm\gitbook-pdf up to C:\Users\xugang\AppData\Roaming\npm
+1558 info postuninstall gitbook-pdf@0.0.2
+1559 silly gentlyRm C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf is being purged from base C:\Users\xugang\AppData\Roaming\npm
+1560 verbose gentlyRm don't care about contents; nuking C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+1561 silly vacuum-fs purging C:\Users\xugang\AppData\Roaming\npm\node_modules\gitbook-pdf
+1562 silly vacuum-fs quitting because other entries in C:\Users\xugang\AppData\Roaming\npm\node_modules

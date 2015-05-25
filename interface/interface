@@ -1,0 +1,19 @@
+# Interface
+
+## 请求
+
+- 202 POST请求成功
+- 403 Forbidden 无权访问
+- 422 Unprocessable Entity 请求可以被解析，但包含了错误的参数
+- 429 Too Many Requests 请求达到频度限制，稍候再试
+
+## 响应
+
+### 响应中提供完整资源
+
+对象及其属性
+
+### 允许JSON编码
+
+Content-Type: application/json
+
