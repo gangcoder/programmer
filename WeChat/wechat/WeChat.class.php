@@ -57,7 +57,10 @@ class WeChat {
 		}
 	}
 
-
+	/**
+	 * 相应公众平台数据
+	 * @return [type] [description]
+	 */
 	public function responseMSG() {
 		// 获取请求时POST：XML字符串
 		// $_POST,不是key/value型因此不能使用该数组
@@ -366,6 +369,7 @@ class WeChat {
 			self::QRCODE_TYPE_LIMIT_STR => 'QR_LIMIT_STR_SCENE',
 			);
 		$action_name = $type_list[$type];
+
 		switch ($type) {
 			case self::QRCODE_TYPE_TEMP:
 			// {"expire_seconds": 604800, "action_name": "QR_SCENE", "action_info": {"scene": {"scene_id": 123}}}
@@ -374,11 +378,15 @@ class WeChat {
 				$data_arr['action_info']['scene']['scene_id'] = $content;
 				break;
 			case self::QRCODE_TYPE_LIMIT:
-			case self::QRCODE_TYPE_LIMIT_STR:
 				$data_arr['action_name'] = $action_name;
 				$data_arr['action_info']['scene']['scene_id'] = $content;
 				break;
+			case self::QRCODE_TYPE_LIMIT_STR:
+				$data_arr['action_name'] = $action_name;
+				$data_arr['action_info']['scene']['scene_str'] = $content;
+				break;
 		}
+
 		$data = json_encode($data_arr);
 		$result = $this->_requestPost($url, $data);
 		if (!$result) {
@@ -389,7 +397,7 @@ class WeChat {
 		return $result_obj->ticket;
 	}
 	/**
-	 * [getQRCode description]
+	 * 生成二维码
 	 * @param  int|string  $content qrcode内容标识
 	 * @param  [type]  $file    存储为文件的地址，如果为NULL表示直接输出
 	 * @param  integer $type    类型
@@ -399,7 +407,8 @@ class WeChat {
 	public function getQRCode($content, $file=NULL, $type=2, $expire=604800) {
 		// 获取ticket
 		$ticket = $this->_getQRCodeTicket($content, $type=2, $expire=604800);
-		$url = "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=$ticket";
+		$url = 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket='.$ticket;
+
 		$result = $this->_requestGet($url);//此时result就是图像内容
 		if ($file) {
 			file_put_contents($file, $result);

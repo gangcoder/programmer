@@ -17,7 +17,7 @@ class Database
 
     private function __construct()
     {
-        
+        #code...
     }
 
     private function __clone(){}
@@ -31,6 +31,14 @@ class Database
             self::$db = new self();
             return self::$db;
         }
+    }
+
+    // 单例模式的另一种写法
+    public static function get()
+    {
+        static $db = null;
+        if ( $db == null ) $db = new Database();
+        return $db;
     }
     
     public function where($where)
