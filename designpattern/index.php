@@ -74,38 +74,63 @@ include BASEDIR.DS.'IMooc'.DS.'Loader.php';
 /**
 * 观察者模式：当一个对象状态发生改变时，依赖它的对象全部会收到通知
 */
-class Event extends \IMooc\EventGenerator
-{
-    public function trigger()
-    {
-        echo "Event<br/>\n";
+// class Event extends \IMooc\EventGenerator
+// {
+//     public function trigger()
+//     {
+//         echo "Event<br/>\n";
 
-        // update
-        $this->notify();
-    }
-}
+//         // update
+//         $this->notify();
+//     }
+// }
 
-/**
-* Observer
-*/
-class Observer1 implements Observer
-{
-    public function update($event_info = null)
-    {
-        echo "逻辑1<br/>\n";
-    }
-}
+// /**
+// * Observer
+// */
+// class Observer1 implements Observer
+// {
+//     public function update($event_info = null)
+//     {
+//         echo "逻辑1<br/>\n";
+//     }
+// }
 
-class Observer2 implements Observer
-{
-    public function update($event_info = null)
-    {
-        echo "逻辑2<br/>\n";
-    }
-}
+// class Observer2 implements Observer
+// {
+//     public function update($event_info = null)
+//     {
+//         echo "逻辑2<br/>\n";
+//     }
+// }
 
-$event = new Event();
-$event->addObserver(new Observer1);
-$event->addObserver(new Observer2);
+// $event = new Event();
+// $event->addObserver(new Observer1);
+// $event->addObserver(new Observer2);
 
-$event->trigger();
+// $event->trigger();
+
+// // 原型模式
+// $prototype = new IMooc\Canvas();
+// $prototype->init();
+
+// // 装饰器模式
+// $prototype->addDecorator(new \IMooc\ColorDrawDecorator);
+
+// $canvas1 = clone $prototype;
+// $canvas1->rect(3, 6, 4, 12);
+// $canvas1->draw();
+
+// $canvas2 = clone $prototype;
+// $canvas2->rect(3, 6, 4, 12);
+// $canvas2->draw();
+
+// // 迭代器模式
+// $users = new \IMooc\AllUser;
+// foreach ($user as $key => $value) {
+//     # code...
+// }
+
+$proxy = new \IMooc\Proxy();
+$proxy->getUserName($id);
+$proxy->setUserName($id, $name);
